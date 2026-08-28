@@ -1,0 +1,26 @@
+baseURL = "https://thatbeardeditguy.co.uk/"
+locale = "en-gb"
+title = "That Bearded IT Guy"
+theme = "blowfish"
+
+enableRobotsTXT = true
+enableGitInfo = false
+enableEmoji = true
+hasCJKLanguage = false
+
+[pagination]
+  pagerSize = 10
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  author = "authors"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[imaging]
+  anchor = "Smart"
+  bgColor = "#ffffff"
+  hint = "photo"
+  quality = 85
