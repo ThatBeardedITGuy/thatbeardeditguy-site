@@ -1,0 +1,18 @@
+label = "English"
+locale = "en-gb"
+contentDir = "content/en"
+weight = 1
+
+[params]
+  displayName = "EN"
+    isoCode = "en"
+      rtl = false
+
+        [params.author]
+            name = "Liam Curran"
+                image = "images/tbitg-logo.png"
+                headline = "That Bearded IT Guy - the practical side of IT, built, broken, and fixed."
+                bio = "L1 IT Support Engineer at an MSP, working across Microsoft 365, Intune and Entra ID. 13 years in the British Army before IT. Currently working through ITIL v5 and ISO 27001, heading toward IT service governance and problem management."
+                links = [
+                { linkedin = "https://www.linkedin.com/in/liam-curran-uk" }
+                ]
