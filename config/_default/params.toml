@@ -1,0 +1,78 @@
+colorScheme = "beardedit"
+defaultAppearance = "dark"
+autoSwitchAppearance = false
+
+enableSearch = true
+enableCodeCopy = true
+enableStructuredBreadcrumbs = true
+
+disableImageOptimization = false
+disableTextInHeader = false
+
+defaultBackgroundImage = ""
+defaultFeaturedImage = ""
+defaultSocialImage = "/images/tbitg-logo.png"
+
+mainSections = ["blog", "projects"]
+
+smartTOC = true
+smartTOCHideUnfocusedChildren = true
+
+[header]
+  layout = "fixed-fill-blur"
+
+  [footer]
+    showMenu = true
+      showCopyright = true
+        showThemeAttribution = false
+          showAppearanceSwitcher = true
+            showScrollToTop = true
+
+            [homepage]
+              layout = "profile"
+                homepageImage = "/images/tbitg-logo.png"
+                  showRecent = true
+                    showRecentItems = 6
+                      showMoreLink = true
+                        showMoreLinkDest = "/blog"
+                          cardView = true
+
+                          [article]
+                            showDate = true
+                              showDateUpdated = true
+                                showAuthor = false
+                                  showBreadcrumbs = true
+                                    showDraftLabel = true
+                                      showEdit = false
+                                        showHeadingAnchors = true
+                                          showPagination = true
+                                            invertPagination = false
+                                              showReadingTime = true
+                                                showTableOfContents = true
+                                                  showTaxonomies = true
+                                                    showWordCount = false
+                                                      showComments = false
+                                                        sharingLinks = ["linkedin", "twitter", "reddit"]
+
+                                                        [list]
+                                                          showHero = false
+                                                            showBreadcrumbs = true
+                                                              showSummary = true
+                                                                showTableOfContents = false
+                                                                  showCards = true
+                                                                    groupByYear = false
+                                                                      cardView = true
+
+                                                                      [sitemap]
+                                                                        excludedKinds = ["taxonomy", "term"]
+
+                                                                        [taxonomy]
+                                                                          showTermCount = true
+                                                                            showBreadcrumbs = true
+                                                                              cardView = true
+
+                                                                              [firstPage]
+                                                                                layout = "profile"
+
+                                                                                [verification]
+                                                                                
