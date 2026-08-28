@@ -1,0 +1,30 @@
+[[main]]
+  name = "Home"
+    pageRef = "/"
+      weight = 10
+
+      [[main]]
+        name = "Blog"
+          pageRef = "blog"
+            weight = 20
+
+            [[main]]
+              name = "Projects"
+                pageRef = "projects"
+                  weight = 30
+
+                  [[main]]
+                    name = "Support"
+                      pageRef = "support"
+                        weight = 40
+
+                        [[main]]
+                          name = "About"
+                            pageRef = "about"
+                              weight = 50
+
+                              [[social]]
+                                name = "linkedin"
+                                  url = "https://www.linkedin.com/in/liam-curran-uk"
+                                    weight = 10
+                                    
