@@ -9,10 +9,10 @@ isoCode = "en"
 rtl = false
 
 [params.author]
-name = "Liam Curran"
+name = "That Bearded IT Guy"
 image = "images/tbitg-logo.png"
-headline = "That Bearded IT Guy - the practical side of IT, built, broken, and fixed."
-bio = "IT professional with a background across Microsoft 365, Intune and Entra ID. 13 years in the British Army before IT. Building toward a career in IT service governance and problem management."
+headline = "The practical side of IT, built, broken, and fixed."
+bio = "IT professional with a background across Microsoft 365, Intune and Entra ID, building toward a career in IT service governance and problem management."
 links = [
 { linkedin = "https://www.linkedin.com/in/liam-curran-uk" }
 ]
