@@ -1,8 +1,10 @@
 ---
 title: "That Bearded IT Guy"
-description: "The practical side of IT - built, broken, and fixed."
+description: "Process, systems, and service - built, broken, and fixed."
 ---
 
-The practical side of IT - built, broken, and fixed.
+Process, systems, and service. Built, broken, and fixed.
 
-I'm Liam, working in IT and building toward a career in service governance and process improvement. This site is where I write about the real stuff: root cause thinking, service management concepts explained without the jargon, my homelab, and the move from 13 years in the Army into IT.
+I'm Liam. 13 years in the British Army, now working in IT.
+
+This is where I write about the stuff that actually matters day to day. Root cause thinking, the way processes drift out of date without anyone noticing, ITIL concepts without the jargon, and what I've picked up running my own homelab.
