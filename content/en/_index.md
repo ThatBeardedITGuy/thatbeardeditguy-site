@@ -1,10 +1,10 @@
 ---
 title: "That Bearded IT Guy"
-description: "Process, systems, and service - built, broken, and fixed."
+description: "The practical side of IT - built, broken, and fixed."
 ---
 
-Process, systems, and service. Built, broken, and fixed.
+The practical side of IT. Built, broken, fixed, and learned from.
 
-I'm Liam. I work in IT, focused on Microsoft 365, Intune, and Entra ID.
+I'm That Bearded IT Guy — an IT professional working across Microsoft 365, Intune, and Entra ID, documenting the things I build, the problems I solve, and the lessons I pick up along the way.
 
-This is where I write about the stuff that actually matters day to day. Troubleshooting real issues, incident and problem management, IT service management concepts without the jargon, the way processes drift out of date without anyone noticing, and what I've picked up running my own homelab.
+Troubleshooting real issues, incident and problem management, IT service management concepts without the jargon, the way processes drift out of date without anyone noticing, and what I've picked up running my own homelab.
