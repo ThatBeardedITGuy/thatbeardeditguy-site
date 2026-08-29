@@ -1,5 +1,5 @@
 colorScheme = "beardedit"
-defaultAppearance = "dark"
+defaultAppearance = "light"
 autoSwitchAppearance = false
 
 enableSearch = true
