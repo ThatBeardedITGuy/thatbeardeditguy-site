@@ -1,37 +1,43 @@
-/* That Bearded IT Guy - professional scheme (navy / blue / burnt orange) */
+/* That Bearded IT Guy - "modern professional IT field manual" scheme
+   Warm ivory/stone backgrounds, charcoal text, muted copper + teal accents. */
 :root {
-  --color-neutral: 255, 255, 255;
-  /* Blue-grey, white to brand navy */
-  --color-neutral-50: 250, 251, 253;
-  --color-neutral-100: 241, 245, 249;
-  --color-neutral-200: 226, 232, 240;
-  --color-neutral-300: 203, 213, 225;
-  --color-neutral-400: 148, 163, 184;
-  --color-neutral-500: 71, 85, 105;
-  --color-neutral-600: 51, 65, 85;
-  --color-neutral-700: 30, 41, 59;
-  --color-neutral-800: 12, 27, 43;
-  --color-neutral-900: 7, 35, 55;
-  /* Professional blue accent */
-  --color-primary-50: 239, 246, 255;
-  --color-primary-100: 219, 234, 254;
-  --color-primary-200: 191, 219, 254;
-  --color-primary-300: 147, 197, 253;
-  --color-primary-400: 96, 165, 250;
-  --color-primary-500: 37, 99, 235;
-  --color-primary-600: 29, 78, 216;
-  --color-primary-700: 30, 64, 175;
-  --color-primary-800: 30, 58, 138;
-  --color-primary-900: 23, 43, 100;
-  /* Burnt orange, brand secondary accent */
-  --color-secondary-50: 254, 248, 241;
-  --color-secondary-100: 253, 240, 222;
-  --color-secondary-200: 250, 220, 178;
-  --color-secondary-300: 246, 194, 121;
-  --color-secondary-400: 242, 168, 64;
-  --color-secondary-500: 209, 130, 20;
-  --color-secondary-600: 167, 102, 11;
-  --color-secondary-700: 119, 73, 8;
-  --color-secondary-800: 71, 43, 5;
-  --color-secondary-900: 33, 20, 2;
+  /* Warm Ivory #F5F2EA - main page background (bg-neutral) */
+  --color-neutral: 245, 242, 234;
+
+  /* Warm neutral scale: 50 = Warm White (card bg), 100 = Warm Stone (secondary bg),
+     ramping down to Charcoal at 900 (primary text) */
+  --color-neutral-50: 255, 253, 248;
+  --color-neutral-100: 232, 227, 216;
+  --color-neutral-200: 208, 204, 195;
+  --color-neutral-300: 183, 181, 174;
+  --color-neutral-400: 159, 158, 152;
+  --color-neutral-500: 134, 134, 131;
+  --color-neutral-600: 110, 111, 110;
+  --color-neutral-700: 86, 88, 88;
+  --color-neutral-800: 61, 65, 67;
+  --color-neutral-900: 37, 42, 46;
+
+  /* Muted Copper #B8653C - primary accent (links, buttons, category labels) */
+  --color-primary-50: 251, 246, 243;
+  --color-primary-100: 246, 234, 228;
+  --color-primary-200: 236, 210, 197;
+  --color-primary-300: 224, 180, 159;
+  --color-primary-400: 209, 144, 113;
+  --color-primary-500: 184, 101, 60;
+  --color-primary-600: 138, 76, 45;
+  --color-primary-700: 99, 55, 32;
+  --color-primary-800: 61, 33, 20;
+  --color-primary-900: 30, 17, 10;
+
+  /* Muted Teal #4E7773 - secondary accent, used sparingly */
+  --color-secondary-50: 246, 249, 249;
+  --color-secondary-100: 233, 241, 240;
+  --color-secondary-200: 209, 225, 223;
+  --color-secondary-300: 178, 205, 202;
+  --color-secondary-400: 141, 180, 176;
+  --color-secondary-500: 78, 119, 115;
+  --color-secondary-600: 54, 82, 79;
+  --color-secondary-700: 34, 51, 50;
+  --color-secondary-800: 13, 20, 20;
+  --color-secondary-900: 4, 6, 6;
 }
