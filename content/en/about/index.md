@@ -8,11 +8,9 @@ showHeadingAnchors: false
 
 I'm Liam, known online as That Bearded IT Guy.
 
-13 years in the British Army before I moved into IT. Working across Microsoft 365, Intune, and Entra ID for a range of client environments since December 2022.
+I work across Microsoft 365, Intune, and Entra ID for a range of client environments, having moved into IT from a previous career in the British Army in December 2022.
 
-The Army gave me something I didn't fully appreciate until I'd left it. A habit of trusting process over improvisation. Taking responsibility for the people and systems around you, not just the task in front of you.
-
-Those two things turned out to matter a lot more in IT than I expected when I made the switch.
+Trusting process over improvisation, and taking responsibility for the people and systems around you rather than just the task in front of you - those are the two things I care about most, and they matter just as much in IT as they did before.
 
 ## What I care about
 
