@@ -1,0 +1,65 @@
+{{/* TBITG custom footer - darker charcoal panel, warm white text, copper accents */}}
+<footer id="site-footer" class="py-10 print:hidden">
+  <div class="rounded-lg bg-neutral-900 px-6 py-8 text-neutral-100 sm:px-10 sm:py-10">
+    <div class="flex flex-col gap-8 border-b border-neutral-700 pb-6 sm:flex-row sm:items-start sm:justify-between">
+      <div>
+        <p class="text-lg font-bold text-neutral-50">That Bearded IT Guy</p>
+        <p class="mt-1 max-w-sm text-sm text-neutral-400">
+          The practical side of IT &mdash; built, broken, and fixed.
+        </p>
+      </div>
+
+      {{ if .Site.Menus.main }}
+        <nav aria-label="{{ i18n "nav.footer_menu" }}">
+          <ul class="flex flex-wrap gap-x-6 gap-y-2 text-sm font-medium text-neutral-300">
+            {{ range .Site.Menus.main }}
+              <li>
+                <a
+                  class="hover:text-primary-400 hover:underline hover:underline-offset-2"
+                  href="{{ .URL }}">
+                  {{ .Name }}
+                </a>
+              </li>
+            {{ end }}
+          </ul>
+        </nav>
+      {{ end }}
+
+      {{ with .Site.Params.Author.links }}
+        <div class="flex text-lg text-neutral-400">
+          {{ partial "author-links.html" $ }}
+        </div>
+      {{ end }}
+    </div>
+
+    <div class="flex flex-col items-center justify-between gap-2 pt-6 sm:flex-row">
+      {{ if .Site.Params.footer.showCopyright | default true }}
+        <p class="text-xs text-neutral-500">
+          {{- with replace .Site.Params.copyright "{ year }" now.Year }}
+            {{ . | markdownify }}
+          {{- else }}
+            &copy;
+            {{ now.Format "2006" }}
+            {{ .Site.Params.Author.name | markdownify }}
+          {{- end }}
+        </p>
+      {{ end }}
+
+      {{ if .Site.Params.footer.showThemeAttribution | default true }}
+        <p class="text-xs text-neutral-500">
+          {{ $hugo := printf `<a class="hover:underline hover:text-primary-400"
+            href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a>`
+          }}
+          {{ $blowfish := printf `<a class="hover:underline hover:text-primary-400"
+            href="https://blowfish.page/" target="_blank" rel="noopener noreferrer">Blowfish</a>`
+          }}
+          {{ i18n "footer.powered_by" (dict "Hugo" $hugo "Theme" $blowfish) | safeHTML }}
+        </p>
+      {{ end }}
+    </div>
+  </div>
+
+  {{ if templates.Exists "partials/extend-footer.html" }}
+    {{ partialCached "extend-footer.html" . }}
+  {{ end }}
+</footer>
