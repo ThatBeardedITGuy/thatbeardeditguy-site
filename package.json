@@ -3,6 +3,6 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "curl -fsSL -o hugo.tar.gz https://github.com/gohugoio/hugo/releases/download/v0.165.0/hugo_extended_0.165.0_linux-amd64.tar.gz && tar -xzf hugo.tar.gz hugo && chmod +x hugo && rm -rf themes/blowfish && git clone --depth 1 https://github.com/nunocoracao/blowfish.git themes/blowfish && ./hugo --minify"
+    "build": "curl -fsSL -o hugo.tar.gz https://github.com/gohugoio/hugo/releases/download/v0.165.0/hugo_extended_0.165.0_linux-amd64.tar.gz && tar -xzf hugo.tar.gz hugo && chmod +x hugo && rm -rf themes/blowfish && git clone --depth 1 https://github.com/nunocoracao/blowfish.git themes/blowfish && mkdir -p assets/images && cp static/images/tbitg-logo.png assets/images/tbitg-logo.png && (cp static/images/tbitg-icon.png assets/images/tbitg-icon.png || true) && ./hugo --minify"
   }
 }
