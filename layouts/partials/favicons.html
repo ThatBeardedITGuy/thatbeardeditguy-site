@@ -1,0 +1,12 @@
+{{ $icon := resources.Get "images/tbitg-icon.png" }}
+{{ if not $icon }}
+  {{ $icon = resources.Get "images/tbitg-logo.png" }}
+{{ end }}
+{{ with $icon }}
+  {{ $appleTouch := .Resize "180x180" }}
+  {{ $favicon32 := .Resize "32x32" }}
+  {{ $favicon16 := .Resize "16x16" }}
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ $appleTouch.RelPermalink }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ $favicon32.RelPermalink }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ $favicon16.RelPermalink }}">
+{{ end }}
