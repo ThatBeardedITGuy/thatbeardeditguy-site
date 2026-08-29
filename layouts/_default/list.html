@@ -18,21 +18,24 @@
     {{ if .Params.showBreadcrumbs | default (site.Params.list.showBreadcrumbs | default false) }}
       {{ partial "breadcrumbs.html" . }}
     {{ end }}
-      {{ $badge := resources.Get "images/tbitg-icon.png" }}
+      {{ $badge := resources.Get "images/tbitg-logo-wide.png" }}
       {{ if not $badge }}
         {{ $badge = resources.Get "images/tbitg-logo.png" }}
+      {{ end }}
+      {{ if not $badge }}
+        {{ $badge = resources.Get "images/tbitg-icon.png" }}
       {{ end }}
       {{ with $badge }}
         {{ $final := . }}
         {{ if not (site.Params.disableImageOptimization | default false) }}
-          {{ with try (.Resize "72x72") }}
+          {{ with try (.Resize "220x") }}
             {{ with .Value }}{{ $final = . }}{{ end }}
           {{ end }}
         {{ end }}
         <img
-          class="mt-5 mb-2 h-14 w-14 rounded-full"
-          width="72"
-          height="72"
+          class="mt-5 mb-2 h-auto w-full max-w-[220px]"
+          width="{{ $final.Width }}"
+          height="{{ $final.Height }}"
           alt="That Bearded IT Guy"
           loading="eager"
           src="{{ $final.RelPermalink }}">
