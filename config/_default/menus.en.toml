@@ -4,7 +4,7 @@
       weight = 10
 
       [[main]]
-        name = "Blog"
+        name = "Field Notes"
           pageRef = "blog"
             weight = 20
 
