@@ -13,13 +13,9 @@ I've spent a lot of my career working with technology.
 More recently, I've become increasingly interested in what sits around the technology.
 
 How it is managed.
-
 How access is controlled.
-
 How risks are understood.
-
 How processes are documented.
-
 How organisations know that the things they say they do are actually happening.
 
 That's a big part of why ISO 27001 has caught my attention.
@@ -41,15 +37,10 @@ What interests me is understanding the thinking behind information security mana
 Working in IT, it's easy to think about security in terms of technology.
 
 MFA.
-
 Conditional Access.
-
 Device compliance.
-
 Endpoint controls.
-
 Permissions.
-
 Logs.
 
 All of those things matter.
@@ -57,13 +48,9 @@ All of those things matter.
 But technology doesn't operate by itself.
 
 People use it.
-
 Processes control how it is used.
-
 Information needs to be managed.
-
 Risks need to be understood.
-
 Responsibilities need to be clear.
 
 That broader view is what I find interesting.
@@ -77,17 +64,11 @@ That sounds simple.
 In practice, there are a lot of questions behind it.
 
 What are we protecting?
-
 What could affect it?
-
 How likely is something to happen?
-
 What would the impact be?
-
 What controls do we already have?
-
 Are those controls actually working?
-
 What evidence do we have?
 
 Those are questions I find interesting because they connect technical work with the way an organisation actually operates.
@@ -111,11 +92,8 @@ They show how small operational details can have a bigger effect.
 As I work through the material, I'm interested in the relationship between controls, risk, governance and the day-to-day reality of an organisation.
 
 A control isn't particularly useful if nobody understands it.
-
 A policy isn't useful if nobody follows it.
-
 A process isn't useful if it doesn't work in practice.
-
 And evidence matters because otherwise you're relying on assumptions.
 
 That way of thinking fits quite naturally with how I already like to troubleshoot technical problems.
@@ -126,7 +104,7 @@ Don't just assume.
 
 ## I'm working towards it
 
-I'm currently working towards further ISO 27001 training, including the Lead Implementer and Lead Auditor side of the subject.
+I'm currently working towards further ISO 27001 training, including the Auditor side of the subject.
 
 I'm approaching it as development rather than claiming expertise I haven't built yet.
 
@@ -145,21 +123,13 @@ I think it comes back to the same thing that has made service management interes
 I like taking something that can feel messy and making it easier to understand.
 
 A technical problem.
-
 A process.
-
 A service.
-
 A risk.
-
 A set of controls.
-
 What is happening?
-
 What should be happening?
-
 Where is the gap?
-
 What can we do about it?
 
 That's the part of ISO 27001 I'm interested in.
