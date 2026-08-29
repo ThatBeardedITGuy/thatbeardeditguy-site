@@ -14,9 +14,9 @@
                   weight = 30
 
                   [[main]]
-                    name = "Support"
-                      pageRef = "support"
-                        weight = 40
+                    name = "Experience"
+                      pageRef = "experience"
+                        weight = 35
 
                         [[main]]
                           name = "About"
