@@ -2,6 +2,8 @@
 title: "Experience"
 showTableOfContents: true
 showHeadingAnchors: false
+showDate: false
+showReadingTime: false
 ---
 
 ## A different route into IT
