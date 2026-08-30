@@ -27,4 +27,9 @@
                                 name = "linkedin"
                                   url = "https://www.linkedin.com/in/liam-curran-uk"
                                     weight = 10
+
+                                    [[social]]
+                                      name = "reddit"
+                                        url = "https://www.reddit.com/user/ComfortableCurve6453/"
+                                          weight = 20
                                     
