@@ -8,132 +8,93 @@ categories: ["Blog"]
 showTableOfContents: false
 ---
 
-I've spent a lot of my career working with technology.
+# Why I'm Interested in ISO 27001
 
-More recently, I've become increasingly interested in what sits around the technology.
+I've spent the last few years working in IT support, and over that time I've become increasingly interested in the parts of IT that sit behind the technology itself.
 
-How it is managed.
-How access is controlled.
-How risks are understood.
-How processes are documented.
-How organisations know that the things they say they do are actually happening.
+When I first moved into IT, my focus was naturally on the technical side. Getting users back up and running, troubleshooting devices, working through Microsoft 365 issues and understanding why something wasn't behaving as expected. That's still a big part of what I do, and I enjoy it.
 
-That's a big part of why ISO 27001 has caught my attention.
+But the more experience I've gained, the more I've started paying attention to what sits around those technical problems.
 
-## I'm interested in the practical side of security
+How is something actually being managed? Why does a particular process work the way it does? Who is responsible for it? What happens when the documented process doesn't match what people are actually doing? How do you know that the controls you have in place are doing what you expect them to do?
 
-I'm not coming at ISO 27001 as someone who has spent years working in information security.
+That's where my interest in ISO 27001 has come from.
 
-I'm learning.
+## It's more than the technology
 
-That's important to say because I think there is a temptation online to present a qualification or a course as if it automatically equals experience.
+Working in IT, it's very easy to think about security in terms of the technology in front of you. MFA, Conditional Access, device compliance, permissions, endpoint controls and logging are all things I work with as part of my normal role.
 
-It doesn't.
+They're important, but they're only part of the picture.
 
-What interests me is understanding the thinking behind information security management and how it applies to real organisations.
+The technology sits inside a much wider environment of people, processes, information and responsibilities. A technical control can be configured correctly and still not achieve what you expect if the process around it isn't clear, or if nobody really understands who is responsible for maintaining it.
 
-## Technology is only part of it
+That's one of the things I find interesting about information security.
 
-Working in IT, it's easy to think about security in terms of technology.
+It's not simply about finding the right setting in a portal. There is a much bigger question around how an organisation understands and manages its information and the risks associated with it.
 
-MFA.
-Conditional Access.
-Device compliance.
-Endpoint controls.
-Permissions.
-Logs.
+## Risk is the part that really interests me
 
-All of those things matter.
+I'm still learning about this, so I'm not going to pretend I have years of information security or GRC experience behind me.
 
-But technology doesn't operate by itself.
+What I do find interesting is the idea of understanding risk properly rather than simply reacting to individual problems.
 
-People use it.
-Processes control how it is used.
-Information needs to be managed.
-Risks need to be understood.
-Responsibilities need to be clear.
+What are we actually trying to protect? What could affect it? What would the impact be? What controls do we already have? Are those controls appropriate? Are they actually working? And perhaps most importantly, how do we know?
 
-That broader view is what I find interesting.
+Those questions feel quite natural to me because they are not completely separate from the way I already approach troubleshooting.
 
-## Risk is particularly interesting to me
+When something doesn't work, I don't want to immediately start changing things. I want to understand what is happening first. I'll look at the available evidence, work through what I can establish and then decide what needs to happen.
 
-A lot of security comes down to understanding what could go wrong and deciding what needs to be done about it.
+I'm finding that I have a similar interest in the security side of things. Understand the situation first, then work out what needs to be done about it.
 
-That sounds simple.
+## I've already seen some of this in my day-to-day work
 
-In practice, there are a lot of questions behind it.
+I'm not implementing ISO 27001 in my current role, and I wouldn't claim that I am.
 
-What are we protecting?
-What could affect it?
-How likely is something to happen?
-What would the impact be?
-What controls do we already have?
-Are those controls actually working?
-What evidence do we have?
+What I have done is work with areas that have made me more interested in the wider subject.
 
-Those are questions I find interesting because they connect technical work with the way an organisation actually operates.
+I regularly deal with identity and access, device compliance, authentication, Conditional Access and audit information. I've also worked on documentation and processes where the information available no longer matched the way something was actually being done.
 
-## There is a connection to the work I already do
+One example was reviewing Joiner, Mover and Leaver documentation and removing legacy steps that no longer reflected the current environment.
 
-I already spend time looking at access, authentication, device compliance, logs and processes.
+That was a relatively practical piece of work, but I found myself thinking about the wider process rather than just editing the document. Why was the process written that way in the first place? Which parts were still relevant? What information did someone actually need to complete the task properly?
 
-I've also worked on documentation and identified places where information was outdated or didn't match the way something was actually being done.
+That sort of thing has made me more interested in the relationship between technology, process and control.
 
-Those aren't the same thing as implementing an information security management system.
+## This is also where my ITIL studies have helped
 
-I wouldn't claim that they are.
+I've spent a lot of time recently working through ITIL v5, including Foundation, Strategy and Product.
 
-But they have made me more interested in the wider subject.
+I'm not trying to turn everything I do into an ITIL exercise, but studying service management has changed the way I look at some of the work I'm already doing.
 
-They show how small operational details can have a bigger effect.
+It has made me more conscious of things like outcomes, processes, value, dependencies and continual improvement. It has also made me more interested in what happens around an individual technical issue rather than just the issue itself.
 
-## ISO 27001 is giving me another perspective
+That way of thinking connects quite naturally with what I'm finding interesting about information security.
 
-As I work through the material, I'm interested in the relationship between controls, risk, governance and the day-to-day reality of an organisation.
+A problem doesn't always exist in isolation. There is usually something around it that explains why it happened, how it is managed and what could be done differently.
 
-A control isn't particularly useful if nobody understands it.
-A policy isn't useful if nobody follows it.
-A process isn't useful if it doesn't work in practice.
-And evidence matters because otherwise you're relying on assumptions.
+## I'm working towards ISO 27001
 
-That way of thinking fits quite naturally with how I already like to troubleshoot technical problems.
+This is an area I'm genuinely interested in developing in, which is why I'm working towards further ISO 27001 training.
 
-Find out what is actually happening.
+I'm particularly interested in understanding the standard properly rather than simply collecting another qualification. I want to understand how an information security management system works in practice, how organisations approach risk, how controls are selected and managed, and how you can use evidence to understand whether things are actually working.
 
-Don't just assume.
+I'm also interested in the auditing side of it because there is something I find appealing about looking at what an organisation says it does and then being able to establish what is actually happening.
 
-## I'm working towards it
+That is still something I'm learning about rather than something I currently do professionally, and I think it's important to make that distinction.
 
-I'm currently working towards further ISO 27001 training, including the Auditor side of the subject.
+## Why I think it suits the way I work
 
-I'm approaching it as development rather than claiming expertise I haven't built yet.
+The more I learn about ISO 27001, the more I can see why it interests me.
 
-I want to understand the standard properly.
+I like understanding how things work. I like looking for gaps. I like working through evidence rather than making assumptions, and I like the idea of improving something rather than simply accepting that it has always been done that way.
 
-I want to understand how an ISMS works.
+That doesn't mean every problem needs a complicated process or another document.
 
-I want to understand the relationship between risk, controls, evidence and improvement.
+Sometimes the right answer is very simple.
 
-For now, I'm learning.
+But I think there is real value in being able to look at something and ask whether it is working as intended, whether the risks are understood and whether there is evidence to support what we believe is happening.
 
-## Why it interests me
+That's the part of ISO 27001 that interests me.
+I'm still learning it, and I have plenty more to learn.
 
-I think it comes back to the same thing that has made service management interesting to me.
-
-I like taking something that can feel messy and making it easier to understand.
-
-A technical problem.
-A process.
-A service.
-A risk.
-A set of controls.
-What is happening?
-What should be happening?
-Where is the gap?
-What can we do about it?
-
-That's the part of ISO 27001 I'm interested in.
-
-Not the certificate on its own.
-
-The thinking behind it.
+But it's an area that genuinely interests me, and I'm looking forward to seeing where that learning takes me.
