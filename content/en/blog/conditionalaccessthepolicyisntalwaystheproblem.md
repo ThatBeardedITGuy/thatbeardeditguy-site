@@ -16,113 +16,131 @@ And the immediate assumption is that a policy has blocked them.
 
 Sometimes it has.
 
-But the useful part of the investigation is finding out which policy, why it applied and what the rest of the sign-in information tells you.
+But I've found that the useful part of the investigation is not simply finding a policy that was involved.
+
+It's understanding why it applied and what the rest of the sign-in information is telling you.
 
 ## Start with the sign-in
 
 When I'm investigating an authentication issue, I want to see what Entra is actually reporting.
 
-The sign-in logs give me much more to work with than the message the user sees.
+The message the user sees gives me the symptom.
 
-I can look at the sign-in attempt, authentication details and the Conditional Access results.
+The sign-in logs give me something much more useful to investigate.
 
-That starts turning a vague access problem into something I can investigate.
+I can look at the sign-in attempt, authentication details and the Conditional Access results to understand what happened.
 
-## One investigation I remember
+That starts turning a vague access problem into something I can actually work with.
 
-I had an authentication issue where the user was unable to access what they needed.
+Instead of:
+
+> The user can't sign in.
+
+I'm trying to get to:
+
+> This sign-in attempt was evaluated against these conditions, and this is what happened.
+
+That gives me somewhere to go next.
+
+## One investigation that stuck with me
+
+I had an authentication issue where a user was unable to access what they needed.
 
 It would have been easy to treat it as a general login problem.
 
-Instead, looking at the sign-in information showed that the request was being affected by a specific Conditional Access policy.
+Instead, I went into the sign-in information and looked at what was actually happening.
 
-In this case, the relevant policy was the blocked-countries policy.
+The results showed that a specific Conditional Access policy was affecting the request. In this case, it was the blocked-countries policy.
 
 That changed the investigation completely.
 
 It wasn't a mysterious authentication failure.
 
-There was a control being applied and the sign-in information showed why.
+There was a control being applied, and the sign-in information showed me which one.
 
-## The lesson wasn't "Conditional Access is bad"
+That meant I could investigate the actual reason for the denial rather than starting to change unrelated settings.
+
+## The lesson wasn't that Conditional Access was the problem
 
 The lesson for me was much simpler.
 
 Follow the evidence.
 
-Conditional Access can involve multiple policies and conditions, and a user doesn't necessarily know which part of that process has stopped them.
+Conditional Access can involve different conditions and policies, and the user isn't necessarily going to know which part of that process has stopped them.
 
-If I guess, I can end up changing something that doesn't need changing.
+If I simply assume the policy is wrong, I could end up changing something that is actually working exactly as intended.
 
-If I check the sign-in information, I have something concrete to work from.
+The first question should be why the policy applied.
 
-## It also shows why context matters
+Then I can work out whether that behaviour is expected.
 
-A policy decision doesn't happen in isolation.
+If it is, the solution might not involve changing the policy at all.
 
-The sign-in has context around it.
+## Context matters
 
-The user.
+One of the things I find interesting about identity issues is how much can sit behind a very simple error message.
 
-The device.
+The user experiences:
 
-The location information available to the service.
+> I can't sign in.
 
-The authentication method.
+But behind that request there is information about the user, the device, the authentication attempt and the policies being evaluated.
 
-The policies being evaluated.
-
-The device's compliance state.
-
-There can be a lot going on behind a fairly simple message saying access has been denied.
-
-That's why I find identity troubleshooting interesting.
+There can also be information about the device's compliance state and the circumstances of the sign-in.
 
 The user sees the outcome.
 
-The logs can help explain the process that produced it.
+The logs help explain how that outcome was reached.
 
-## Don't change the policy just to make the error disappear
+That's why I prefer looking at the actual sign-in information before making assumptions about what needs changing.
 
-This is probably the biggest practical lesson.
+## Don't change the control just to make the error disappear
 
-If a policy is doing exactly what it was designed to do, removing or weakening it just to get one user through isn't necessarily a solution.
+This is probably the biggest practical lesson I've taken from working with access issues.
 
-First understand why the policy applied.
+If a security control is doing what it was designed to do, removing or weakening it simply because one user is being blocked isn't necessarily a solution.
 
-Then understand whether that behaviour is expected.
+First, understand why it applied.
 
-If it isn't expected, that's a different problem.
+Then establish whether that behaviour is expected.
 
-That distinction matters, particularly when access controls are involved.
+If it isn't expected, investigate why.
 
-## This is where my ITIL learning fits in too
+If it is expected, the answer might be something else entirely.
 
-I'm not interested in forcing a framework into every troubleshooting session.
+The user may need a different access route.
 
-But studying service management has made me more conscious of the difference between the immediate symptom and the wider service.
+There may be another way of meeting the requirement.
 
-The immediate request might be:
+The policy may genuinely need reviewing.
 
-> Get this user signed in.
+Or nothing may need changing at all.
 
-The useful investigation is:
+You can't really make that decision until you understand what happened.
 
-> Why was access denied?
+## This is the part of troubleshooting I enjoy
 
-And if the answer is:
+I like problems where the first description doesn't give you the whole picture.
 
-> A policy correctly blocked the request.
+Not because I want to make things complicated.
 
-Then the outcome might be different again.
+Quite the opposite.
 
-Maybe the user needs a different access path.
+I want to take something vague and turn it into something I can understand.
 
-Maybe the policy needs reviewing.
+A user can't sign in.
 
-Maybe nothing needs changing at all.
+I look at the sign-in.
 
-The important thing is that we know what happened.
+I see what happened.
+
+I check the relevant policy result.
+
+I work out whether the behaviour is expected.
+
+Then I know what I'm actually dealing with.
+
+That's much better than changing a setting and hoping the error disappears.
 
 ## The practical takeaway
 
@@ -136,4 +154,10 @@ I start with:
 
 That small change in approach can save a lot of time.
 
-And it means I'm fixing the actual problem rather than trying random changes until the error goes away.
+More importantly, it means I'm trying to fix the actual problem rather than changing things until the error goes away.
+
+Sometimes Conditional Access really is the reason someone can't get in.
+
+But finding a policy involved in a failed sign-in isn't the end of the investigation.
+
+It's the point where the useful investigation starts.
