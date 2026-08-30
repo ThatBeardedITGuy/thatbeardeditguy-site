@@ -44,7 +44,7 @@
       {{ if not $bannerRes }}{{ $bannerRes = resources.Get $banner }}{{ end }}
       {{ if $bannerRes }}
         <div class="mt-6" style="max-width: 900px;">
-          <div class="overflow-hidden rounded-lg" style="aspect-ratio: 16 / 9;">
+          <div class="overflow-hidden rounded-lg">
             {{ with $bannerRes.Resize "1600x jpg q82" }}
               <img
                 src="{{ .RelPermalink }}"
@@ -52,8 +52,7 @@
                 height="{{ .Height }}"
                 alt="{{ $.Title }}"
                 loading="eager"
-                class="h-full w-full object-cover"
-                style="aspect-ratio: 16 / 9;" />
+                class="h-auto w-full" />
             {{ end }}
           </div>
         </div>
