@@ -8,8 +8,6 @@ categories: ["Blog"]
 showTableOfContents: false
 ---
 
-# When the Fix Is Simpler Than the Investigation
-
 One of the things I like about troubleshooting is that the amount of work involved in finding an answer doesn't always have much to do with how complicated the eventual fix turns out to be.
 
 I had a good example of this with an Excel co-authoring issue.
