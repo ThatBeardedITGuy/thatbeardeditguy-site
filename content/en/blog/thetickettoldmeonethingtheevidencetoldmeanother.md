@@ -8,21 +8,25 @@ categories: ["Blog"]
 showTableOfContents: false
 ---
 
-One of the easiest traps in IT support is assuming the first description of a problem is the problem itself.
+One of the easiest traps in IT support is assuming that the first description of a problem is the problem itself.
 
-It isn't.
+I've done it.
 
-It's the starting point.
+It's very easy to read a ticket, see a familiar symptom and immediately start thinking about what you believe the cause is.
+
+The problem is that the person raising the ticket is describing what they are experiencing. They aren't necessarily describing what is happening underneath.
+
+That distinction has become something I'm much more conscious of as I've gained experience in support.
 
 ## The ticket is someone's view of the problem
 
-A user isn't trying to give you a technical diagnosis.
+When someone raises a ticket saying they can't sign in, that's useful information.
 
-They're trying to tell you what they were trying to do and what happened instead.
+They're telling me what they're experiencing.
 
-That's useful.
+They're not necessarily expected to know whether the problem is authentication, Conditional Access, device compliance, licensing or something else. That's part of what I'm there to investigate.
 
-But there's a difference between:
+There's a difference between:
 
 > I can't sign in.
 
@@ -30,136 +34,212 @@ and:
 
 > The sign-in attempt is being blocked by a specific Conditional Access policy.
 
-The first is the experience.
+The first tells me about the user's experience.
 
-The second is something we've established through investigation.
+The second is something I've established through investigation.
 
-Getting from one to the other is the job.
+Getting from one to the other is where the actual troubleshooting starts.
 
-## The Conditional Access example
+## I saw this with a Conditional Access issue
 
-I had an authentication issue where the initial symptom looked like a general access problem.
+I've had an authentication issue where the initial symptom looked like a fairly general access problem.
 
-Looking at the Entra sign-in information changed the picture.
+From the user's perspective, they simply couldn't sign in.
 
-The Conditional Access results showed that a specific blocked-countries policy was responsible for the sign-in being denied.
+There are quite a few possible reasons for that, so rather than assuming it was an account or application problem, I looked at the Entra sign-in information.
+
+That changed the picture.
+
+The sign-in information showed that a specific Conditional Access policy was responsible for the request being blocked. In this case, it was the blocked-countries policy.
 
 That was much more useful than simply knowing the user couldn't sign in.
 
-It told me what was happening and where to look next.
+It gave me something concrete to work with and explained why the sign-in was being denied.
 
-## Another example: Excel
+The important part wasn't that I knew the name of the policy beforehand.
 
-The same thing happened with an Excel co-authoring issue.
+I didn't need to.
 
-The symptom was that co-authoring wasn't behaving as expected.
+The investigation gave me the answer.
 
-There were plenty of possible places to investigate.
+## The same thing happened with an Excel issue
 
-But looking at the actual file showed that it was an `.xlsb` workbook.
+I had a similar experience with an Excel co-authoring issue.
+
+The initial problem was straightforward enough. Users were trying to work on a workbook together and the co-authoring behaviour wasn't working as expected.
+
+There were plenty of things that could potentially have caused that.
+
+It could have been related to the Microsoft 365 service, permissions, the user's device, the Office client or something about the file itself.
+
+Rather than immediately changing something, I looked more closely at the workbook.
+
+It was an `.xlsb` file.
 
 Converting it to `.xlsx` resolved the issue.
 
-Again, the initial description was accurate.
+The fix itself was simple.
 
-It just didn't contain the cause.
+The investigation was what established that it was the file format that mattered.
 
-## That's why I like evidence-led troubleshooting
+Again, the original ticket wasn't wrong.
 
-The more I work in support, the more I try to separate:
+The users really couldn't co-author the workbook.
 
-**What the user is seeing**
+It just didn't tell me why.
 
-from
+## That's why I like working from evidence
 
-**What the system is telling me**
+The more I've worked in support, the more I've tried to separate two things in my head.
 
-Both matter.
+What is the user experiencing?
 
-The user tells me about the experience and impact.
+And what is the system telling me?
 
-The technical evidence helps me understand what is happening underneath.
+Both are important.
 
-You need both.
+The user gives me the context and the impact. They can tell me what they were trying to achieve, what happened and whether something has changed.
 
-## It also stops me jumping to conclusions
+The technical information helps me understand what is actually happening underneath.
 
-If someone says:
+If I only look at one side, I'm missing part of the picture.
 
-> My laptop can't access the application.
+This is particularly useful when dealing with things like authentication and device issues, where the visible symptom can be fairly generic but the underlying reason can be much more specific.
 
-I could immediately start looking at the network.
+## It also stops me getting too attached to my first idea
 
-But maybe the device is compliant.
+If someone tells me their laptop can't access an application, there are plenty of things I could immediately start checking.
 
-Maybe the network is fine.
+I could look at the network.
 
-Maybe the application is working.
+I could look at the application.
 
-Maybe the user is being blocked by an access policy.
+I could look at the device.
 
-I don't know until I check.
+I could look at the user's account.
 
-That's why I like simple questions.
+I could look at Conditional Access.
 
-What works?
+But I don't know which one matters until I have something to support that direction.
+
+So I try to start with relatively simple questions.
+
+What actually works?
 
 What doesn't?
 
-Is it only this device?
-
 Is it only this user?
 
-Does it happen somewhere else?
+Is it only this device?
 
-What does the log show?
+Does the same thing happen somewhere else?
 
-Each answer moves the investigation forward.
+Has anything changed?
 
-## Sometimes the evidence proves your first idea was right
+What does the relevant log show?
 
-That's fine too.
+Each answer gives me another piece of information.
 
-If I think it's DNS and the tests show it's DNS, great.
+Sometimes it confirms the direction I was already thinking about.
 
-If I think it's a device compliance issue and the device state confirms it, great.
+Sometimes it sends me somewhere completely different.
 
-The point isn't to avoid assumptions completely.
+## Sometimes your first assumption is right
 
-It's to be willing to change them.
+There's nothing wrong with having an initial theory.
 
-## This is also where documentation helps
+If I have seen a particular type of issue before, it makes sense that I might have an idea about where to start.
 
-If I've investigated something properly, I want the useful parts recorded.
+If I think something might be related to DNS and the testing supports that, that's useful.
 
-That helps if the issue returns.
+If I think a device compliance issue might be responsible and the device state confirms it, that's useful too.
 
-It helps another engineer.
+The problem isn't having an assumption.
 
-It helps with escalation.
+The problem is treating the assumption as the answer before you've checked it.
 
-And it can help identify patterns later.
+I've found it much more useful to be willing to change direction when the evidence doesn't support my first thought.
 
-I've become much more interested in this through my work on knowledge articles and process documentation.
+That's part of troubleshooting.
 
-The investigation shouldn't disappear when the ticket closes if there is something useful to keep.
+You start somewhere, you test it, you learn something and then you decide where to go next.
+
+## The investigation is useful even when someone else needs to fix it
+
+This is also where it connects with the way I approach escalations.
+
+Sometimes I'll investigate an issue as far as I can and find that another team needs to take it further.
+
+That's fine.
+
+The work I've already done still has value.
+
+If I've established that the user can access the service from one device but not another, that's useful.
+
+If I've found a Conditional Access result that explains why authentication is being blocked, that's useful.
+
+If I've tested something and ruled it out, that's useful too.
+
+It means the next team isn't just receiving the original symptom.
+
+They're receiving part of the investigation.
+
+That's one of the reasons I think evidence-led troubleshooting and good escalation go together.
+
+## Documentation means the investigation doesn't have to disappear
+
+If I've worked through something that could be useful again, I want the important parts recorded.
+
+That doesn't mean writing a ten-page document every time something goes wrong.
+
+Sometimes the useful information is simply the cause, the resolution and a couple of checks that helped identify it.
+
+I've become more conscious of this through the documentation and knowledge work I've done.
+
+If the same issue appears again, having something useful to refer back to can save time.
+
+It can also help another engineer understand what happened without having to repeat the entire investigation.
+
+And sometimes recording something helps reveal a pattern that wasn't obvious from one ticket alone.
+
+## The first description is still important
+
+I don't think the answer is to distrust tickets or assume that users don't know what they're talking about.
+
+Quite the opposite.
+
+The user's description is where the investigation starts.
+
+They're the person experiencing the problem, so their description of what happened and what they were trying to do is important.
+
+I just don't want that description to become the diagnosis automatically.
+
+The user might say they can't sign in.
+
+The evidence might show a Conditional Access policy blocking them.
+
+They might say Excel co-authoring isn't working.
+
+The investigation might show that the file format is the problem.
+
+Both users described their problems accurately.
+
+The investigation simply gave me a better understanding of what was happening underneath.
 
 ## What I've taken from this
 
-I don't think the answer is to distrust every ticket.
+I've become much more comfortable with the idea that I don't need to know the answer immediately.
 
-The ticket is important.
+I need to know how to find it.
 
-It's where the problem starts.
+That means starting with the user's experience, gathering the relevant information, testing what I can and being prepared to change direction when the evidence points somewhere else.
 
-But I try not to let the ticket decide the diagnosis for me.
+Sometimes the first idea will be right.
 
-Start with what the user is experiencing.
+Sometimes it won't.
 
-Then look at what the system is telling you.
+Either way, the important thing is that the investigation is based on what you can actually establish rather than what you think is probably happening.
 
-Sometimes they match.
+The ticket tells me where to start.
 
-Sometimes they don't.
-
-That's usually where the interesting part begins.
+The evidence tells me where to go next.
