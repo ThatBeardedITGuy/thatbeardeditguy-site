@@ -8,134 +8,195 @@ categories: ["Blog"]
 showTableOfContents: false
 ---
 
-One of the things I like about troubleshooting is that the amount of work needed to find an answer isn't always related to how complicated the final fix is.
+# When the Fix Is Simpler Than the Investigation
 
-I had a good example of that with an Excel co-authoring issue.
+One of the things I like about troubleshooting is that the amount of work involved in finding an answer doesn't always have much to do with how complicated the eventual fix turns out to be.
 
-The investigation took more thought than the eventual fix.
+I had a good example of this with an Excel co-authoring issue.
+
+The eventual fix was fairly simple.
+
+Getting to that fix took a bit more investigation.
 
 ## The problem
 
-The issue was around co-authoring an Excel workbook.
+The issue was around users trying to co-author an Excel workbook.
 
-The users expected to be able to work on the file together, but it wasn't behaving as expected.
+They expected to be able to work on the file together, but the co-authoring behaviour wasn't working as expected.
 
-At first glance, there are plenty of places you could start looking.
+At that point, there are quite a few places you could start looking.
 
-Microsoft 365.
+Is it a Microsoft 365 issue?
 
-SharePoint or OneDrive.
+Is it SharePoint or OneDrive?
 
-Permissions.
+Is it permissions?
 
-The file itself.
+Is there something wrong with the Office client?
 
-The Office client.
+Is the device causing the problem?
 
-The user's device.
+Or is there something about the actual file?
 
-There are plenty of possible explanations.
+That's the problem with a fairly broad symptom. There are plenty of things that could potentially be responsible.
 
-## Start narrowing it down
+So rather than immediately changing something, I started narrowing it down.
 
-Rather than immediately changing settings, the useful thing was to understand the scenario.
+## Start with the actual situation
+
+I wanted to understand exactly what was happening rather than just treating it as "Excel co-authoring doesn't work".
 
 What type of file was it?
 
 Where was it stored?
 
-Was the problem affecting everyone or a particular situation?
+Was the problem affecting everyone?
 
-What happened when the file was opened?
+Was it happening with every workbook or just this particular one?
 
-The file format turned out to be important.
+What happened when the users tried to work on it?
 
-The workbook was an `.xlsb` file.
+Those questions started to reduce the number of possibilities.
 
-That was the clue.
+The file itself became more interesting as the investigation continued.
 
-## The fix
+It was an `.xlsb` workbook.
 
-The practical resolution was to convert the workbook to `.xlsx`.
+That turned out to be an important detail.
 
-After that, the co-authoring scenario worked as expected.
+## The eventual fix
 
-Not exactly a dramatic fix.
+The solution was to convert the workbook from `.xlsb` to `.xlsx`.
+
+Once that was done, the co-authoring issue was resolved.
+
+That's it.
 
 No complicated script.
 
-No major configuration change.
+No major Microsoft 365 configuration change.
 
-Just the right file format.
+No rebuilding the user's machine.
 
-## So why was the investigation useful?
+Just changing the file format.
 
-Because the fix wasn't obvious from the initial symptom.
+It would be easy to look at that afterwards and think the problem was simple.
 
-If I'd started changing permissions or reinstalling Office, I could have spent a lot of time working in the wrong area.
+In one sense, it was.
 
-The investigation narrowed down what the problem actually was.
+But that doesn't mean the investigation wasn't necessary.
 
-That's the bit I think is worth remembering.
+## The fix isn't always the interesting part
 
-Troubleshooting isn't about making the most changes.
+This is something I've come to appreciate more as I've gained experience in IT support.
 
-It's about finding the right change.
+When you know the answer, the answer can look obvious.
 
-## Simple doesn't mean the investigation was unnecessary
+Before you know the answer, there are usually several possible explanations.
 
-There's sometimes a temptation to look at a simple fix afterwards and think:
+If I'd immediately assumed this was a permissions issue, I could have spent time looking in the wrong place.
 
-> We could have just done that from the start.
+If I'd started changing Office settings, I could have made things more complicated.
 
-Maybe.
+If I'd rebuilt the user's device, I'd have been solving a completely different problem.
 
-But if you don't know the cause, you're guessing.
+The investigation gave me enough information to make a sensible change rather than just trying things until something worked.
 
-The fact that the final answer is simple doesn't make the investigation wasted effort.
+That's an important difference.
 
-It means the investigation got you to a simple answer.
+## I try not to change things just for the sake of changing them
 
-## This is something I see a lot in IT
+There's a temptation in troubleshooting to feel like you need to be doing something all the time.
 
-The visible problem and the actual cause can be quite far apart.
+Click this.
+Change that.
+Restart something.
+Reinstall something.
+Clear something.
 
-A user might say:
+Sometimes that's exactly what you need to do.
 
-> Outlook isn't working.
+But if you haven't established what you're trying to prove, you can easily end up making changes without really learning anything from them.
 
-It could be authentication.
+I've found it more useful to treat each check as a way of narrowing the problem down.
 
-It could be connectivity.
+If something works on one device but not another, that's useful.
 
-It could be a profile issue.
+If another user can open the same file, that's useful.
 
-It could be a service issue.
+If the issue follows the file rather than the user, that's useful.
 
-It could be one particular mailbox.
+You don't necessarily need a complicated troubleshooting methodology.
 
-The same applies to access problems, devices, applications and network issues.
+You just need to pay attention to what each result is telling you.
 
-The first description gives you somewhere to start.
+## The simple fix is still a good outcome
 
-It doesn't give you the answer.
+I actually think there is something quite satisfying about finding a simple answer to a problem that initially looked more complicated.
 
-## What I took from the Excel issue
+You haven't failed because the final fix was straightforward.
 
-For me, the lesson was to stay curious even when the problem looks familiar.
+Quite the opposite.
 
-Don't assume the answer.
+The point of the investigation was to get to the right answer with as little unnecessary change as possible.
 
-Don't make unnecessary changes.
+In this case, the final solution was simply using a file format that supported the co-authoring scenario properly.
 
-Work through the scenario.
+The work was in figuring that out.
 
-Check the details.
+## It also reminded me not to get too attached to my first idea
 
-And when you find the cause, the fix might be much simpler than you expected.
+This is probably the bigger lesson I took from it.
 
-That's a good outcome.
+When you're troubleshooting something you've seen before, it's very easy to think you already know what the problem is.
 
-A simple fix is great.
+Sometimes you do.
 
-A simple fix that you can explain is even better.
+Sometimes you don't.
+
+I've had plenty of situations where the initial description of an issue pointed me in one direction and the evidence took me somewhere else.
+
+That's normal.
+
+The important thing is being willing to change your mind when the evidence doesn't support your first assumption.
+
+## That's something I've found useful beyond troubleshooting
+
+This is also one of the reasons I've enjoyed studying service management.
+
+I'm increasingly interested in the thinking behind the work rather than just the technical action that resolves the immediate issue.
+
+What is actually happening?
+Where is the problem occurring?
+What is the impact?
+What information do we have?
+What do we need to change?
+And, once it is fixed, is there anything useful we should take from it?
+
+The Excel issue was just a support problem.
+
+But it was a good reminder that a technical fix is only one part of the investigation.
+
+## The best fix isn't necessarily the most complicated one
+
+I think there's sometimes an assumption that a difficult problem needs an impressive solution.
+
+I'm not sure that's true.
+
+A good troubleshooting process should ideally make the final solution simpler, not more complicated.
+
+In this case, the investigation started with a fairly broad Microsoft 365 problem and eventually came down to the format of a single Excel workbook.
+
+That's a much better outcome than changing half the environment and hoping for the best.
+
+So these days, when I come across a problem that looks complicated, I try not to make it more complicated than it needs to be.
+
+Start with what I know.
+
+Find out what I don't.
+
+Use the evidence to narrow it down.
+
+Then make the smallest sensible change.
+
+Sometimes, after all that, the fix is surprisingly simple.
