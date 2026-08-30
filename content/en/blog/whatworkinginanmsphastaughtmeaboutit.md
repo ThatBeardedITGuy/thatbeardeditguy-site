@@ -8,152 +8,183 @@ categories: ["Blog"]
 showTableOfContents: false
 ---
 
-One of the biggest advantages of working in an MSP environment has been the variety.
+One of the biggest things I've gained from working in an MSP environment is the variety.
 
-You're not dealing with one environment, one set of users or one way of doing things.
+I'm not talking about having a few different applications to support. I'm talking about moving between different customer environments, different technologies, different ways of working and completely different problems, sometimes within the same day.
 
-You're dealing with different customers, different technologies, different requirements and different problems.
+I've worked across Microsoft 365, Entra ID, Intune, Active Directory, Exchange Online, SharePoint, Teams, endpoint management and a whole range of business applications. I've also spent a fair amount of time on-site with customers, dealing with everything from user issues and device rebuilds to larger pieces of work such as Windows 11 migrations.
 
-That can be challenging.
+That variety can be challenging, but I think it has had a big influence on how I work.
 
-It can also be a very good way to learn.
+## You can't assume every environment works the same way
 
-## You have to get comfortable with unfamiliar environments
+One of the things you quickly learn in an MSP is that knowing one environment doesn't mean you know the next one.
 
-In an internal IT team, you spend a lot of time getting to know the same environment.
+You might be very comfortable working in one customer's Microsoft 365 environment, then find yourself dealing with a completely different setup somewhere else. The same technology might be there, but the configuration, policies, processes and expectations can be different.
 
-In an MSP, you might move between different customer setups and have to work out how things fit together.
+That means I've had to become comfortable with not immediately knowing the answer.
 
-That means you can't always rely on knowing exactly where everything is.
+I don't think there's anything wrong with saying, "I don't know yet."
 
-You have to ask questions.
+The important part is what happens next.
 
-You have to read the information available.
+I can look at the information available, understand the environment I'm actually working in and start investigating from there. I've found that much more useful than trying to make a familiar solution fit a situation where it doesn't quite belong.
 
-You have to investigate.
+It's also made me more comfortable picking up things I've not dealt with before. I don't need to know everything about an environment before I can start understanding a problem.
 
-And you have to be comfortable saying:
+## The variety of work has been a big part of my experience
 
-> I don't know yet. Let me find out.
+My day-to-day work isn't just one type of support.
 
-I think that's an important skill in IT.
+There are the Microsoft issues you'd expect, such as authentication problems, licensing, Conditional Access, Exchange Online, Teams and SharePoint. There are endpoint issues involving Intune, compliance and device configuration. Then there are the things that don't fit neatly into one category.
 
-## Different customers have different priorities
+I've built and rebuilt PCs, provisioned tablets, dealt with printers, worked through VPN issues and supported users on-site. I've investigated issues using sign-in activity, device state, logs and policy behaviour, and I've had plenty of occasions where the first description of a problem hasn't really told me what the underlying issue is.
 
-Not every organisation works in the same way.
+That range has been useful because it means I'm constantly having to work out what kind of problem I'm actually dealing with before deciding how to approach it.
 
-Something that is critical for one customer might be less important for another.
+## Being on-site has taught me a lot as well
 
-The same technical problem can also have a different impact depending on who is affected and what they're trying to do.
+One of the parts of my role that I particularly enjoy is customer site work.
 
-That has made me more conscious of understanding impact and urgency rather than treating every ticket as exactly the same.
+I've regularly been trusted to act as the lead engineer on-site, sometimes as the only engineer there, which means the responsibility is slightly different from sitting behind a service desk.
 
-The technical problem matters.
+You're not just working through a queue of tickets.
 
-The context around it matters too.
+You have to look at what is happening around you.
 
-## You see the importance of documentation
+You might arrive with a list of planned work and then have users coming to you with issues that weren't on the list. You have to work out what needs attention first, what you can resolve yourself and what needs to be passed back to another team.
 
-When you're working across different environments, useful documentation becomes even more valuable.
+Being there also gives you information that isn't always obvious from a ticket.
 
-If you already know the environment, you might remember how something works.
+You can see how people are actually using the technology. You can ask questions directly. You can sometimes spot that what looked like an individual issue is actually part of something wider.
 
-If you haven't worked on it for a while, or someone else needs to pick it up, that memory isn't enough.
+I've found that particularly useful because it gives me a much better understanding of the difference between the technical problem and the experience of the person dealing with it.
 
-I've worked on knowledge articles and support documentation for this reason.
+## The Windows 11 migration was a good example
 
-Good information makes it easier to support a customer consistently.
+One of the larger pieces of work I've supported was a Windows 11 migration involving more than 200 users.
 
-Poor information creates more questions.
+My involvement included readiness checks, on-site support, floor-walking, triage and escalation.
 
-## You also see where processes don't match reality
+On paper, a migration like that is obviously a technical exercise. There are devices to prepare, compatibility to consider and issues to resolve.
 
-This is probably one of the more interesting parts of MSP work for me.
+In reality, there's a lot more going on.
 
-You can have a documented process that looks perfectly sensible.
+You're dealing with users who need to be able to work. You're dealing with different devices and different problems. Some issues can be resolved immediately, while others need to be investigated or escalated.
+
+That experience reinforced something I've noticed throughout my time in IT: the technical work is only part of delivering something successfully.
+
+You also need communication, coordination and a good understanding of what needs to happen next.
+
+## You start to notice where processes don't quite work
+
+Working across different customer environments has also made me much more aware of documentation and processes.
+
+You can have a process that looks perfectly reasonable when you read it.
 
 Then you actually have to use it.
 
-Sometimes it works.
+That's when you sometimes find that a step no longer applies, something isn't documented properly or there is a dependency that nobody has written down.
 
-Sometimes you find a step that no longer applies.
+I've experienced this directly through working on JML documentation.
 
-Sometimes there is a dependency that isn't written down.
+Some of the existing documentation contained legacy steps that no longer reflected the environment, including old Citrix and Google administration activities. Reviewing that meant looking at what the process was supposed to achieve and then bringing the documentation back into line with what actually needed to happen.
 
-Sometimes people have developed a workaround because the documented process doesn't quite fit the environment anymore.
+I found that work more interesting than I probably would have expected when I first moved into IT.
 
-Those things are worth noticing.
+It isn't particularly glamorous work.
 
-I've worked on documentation and process improvements where information had become outdated or no longer reflected what was actually happening.
+Nobody is going to get excited about updating a process document.
 
-That's given me a much stronger interest in service management.
+But when the documentation is wrong, it creates problems for the person trying to follow it. Fixing that can make the process easier and more consistent for everyone who uses it afterwards.
 
-## You have to communicate
+## Escalation has become part of the job
 
-When you're working with different customers and internal teams, technical knowledge is only part of the job.
+Working in an MSP also means you're often working as part of a much bigger chain of support.
 
-You need to explain what is happening.
+There are plenty of problems where I can investigate a long way but ultimately need another team to take it further.
 
-You need to manage expectations.
+I've become quite conscious of the quality of those handovers.
 
-You need to make sure the right people know when something changes.
+If I escalate something with:
 
-And when you escalate something, you need to give the next team enough information to continue.
+> User can't access application. Please investigate.
 
-I've learned that a technically correct answer isn't particularly useful if nobody understands what needs to happen next.
+I've probably not done enough.
 
-## Site visits are a different experience
+If I've included what the user was trying to do, what I've tested, what the logs show, what I've ruled out and what I think the next team needs to look at, that's a much more useful escalation.
 
-One of the parts of my role I enjoy is being on-site.
+I'm still learning here, but I've found that taking the time to structure an escalation properly can save someone else from starting the same investigation all over again.
 
-I've regularly been trusted to act as the sole engineer during customer visits, coordinating the support activity on the ground.
+For me, that's still part of taking ownership of the issue, even if I don't own the final fix.
 
-You see things you don't necessarily see from a ticket.
+## Working across customers has changed how I troubleshoot
 
-You can watch how people actually use the technology.
+I think this is probably the biggest technical lesson I've taken from MSP work.
 
-You can spot environmental issues.
+You can't always rely on the answer you've used before.
 
-You can speak directly to users.
+You have to understand the environment in front of you.
 
-And sometimes a five-minute conversation gives you more information than the original ticket did.
+That has made me more comfortable starting with evidence.
 
-I've also supported a Windows 11 migration involving more than 200 users, working on readiness checks, floor-walking, triage and escalation.
+If something isn't working, I want to know what the device is reporting. If it's an authentication issue, I want to know what the sign-in logs show. If it's a Conditional Access problem, I want to understand which policy is actually affecting the request.
 
-That sort of work gives you a different perspective on service delivery.
+The same applies to more straightforward support issues.
 
-## The variety has changed how I troubleshoot
+What has changed?
 
-Working across different environments means you can't always assume the same answer applies everywhere.
+What works?
 
-You have to understand the environment you're actually dealing with.
+What doesn't?
 
-That has made me more comfortable starting with evidence rather than assumptions.
+Is it one user or several?
 
-What does this customer have?
-
-What is different here?
-
-What does the device report?
-
-What does the service report?
+Is it one device or several?
 
 What has already been tried?
 
-Those questions become useful habits.
+Those questions sound simple, but they're useful because they stop me jumping too far ahead.
 
-## What I like about MSP work
+## It has also changed how I think about service management
 
-It's busy.
+This is probably where my recent ITIL learning has connected most with my day-to-day experience.
 
-Sometimes very busy.
+Working in an MSP means you're constantly seeing the relationship between people, technology, processes and the services they're trying to deliver.
 
-There are always competing priorities and something unexpected usually appears.
+A technical issue might be the immediate problem, but the reason it takes so long to resolve might be something else.
 
-But the variety has given me a broad range of experience across Microsoft 365, identity, endpoints, networking, applications and service operations.
+It could be missing information.
 
-It's also helped me understand that good support isn't only about technical knowledge.
+It could be an unclear process.
 
-It's about investigation, communication, ownership, documentation and knowing when something needs to be improved rather than simply fixed.
+It could be a poor handover.
 
+It could be something waiting on another team.
+
+It could be documentation that hasn't been updated.
+
+Once you start looking at those things, you begin to see that good IT support isn't just about knowing how to fix technology.
+
+It's also about understanding how the work gets done.
+
+That's one of the reasons I've enjoyed studying service management alongside my support role. I'm seeing examples of the concepts in the work I'm already doing, rather than learning them in isolation.
+
+## MSP work can be busy, but that's part of the value
+
+There are definitely days when the variety is the difficult part.
+
+You can be working through one issue and suddenly have something completely different land in front of you. Priorities change, customers need different things and sometimes you have to switch between technical investigation, customer communication and practical work very quickly.
+
+But I've found that useful.
+
+It has forced me to become more adaptable and comfortable working things out as I go, without losing sight of the fact that the work still needs to be done properly.
+
+I've gained experience across a much broader range of technology and environments than I would probably have seen working in just one organisation.
+
+More importantly, I've started to understand that good support isn't simply about how quickly you can find a technical fix.
+
+It's about understanding the problem, taking responsibility for what you can control, communicating properly, documenting what matters and recognising when something needs to be improved rather than simply fixed again.
+
+That's probably the biggest thing working in an MSP has taught me.
 That's probably the biggest thing I've taken from it.
