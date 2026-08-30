@@ -20,152 +20,132 @@ A familiar explanation can become a trap.
 
 When you've seen the same sort of issue enough times, your brain starts filling in the gaps.
 
-Can't connect?
+Can't connect? Probably DNS.
 
-Probably DNS.
+Can't access an application? Probably DNS.
 
-Can't access an application?
+Something suddenly stopped working? Have you checked DNS?
 
-Probably DNS.
+Sometimes that instinct is useful. Experience gives you an idea of where to start.
 
-Something suddenly stopped working?
+The problem is when the likely answer becomes the assumed answer.
 
-Have you checked DNS?
+If I've already decided something is DNS before I've checked, I can end up looking for evidence that proves me right instead of finding out what is actually happening.
 
-Sometimes that instinct is useful.
+## I've learned to slow down at the beginning
 
-Sometimes it's completely wrong.
+When I'm working through a connectivity issue, I want to establish what is actually failing.
 
-The problem is when you stop investigating because you've already decided what the answer is.
-
-## I've learned to be a little more deliberate
-
-When I'm working through a connectivity problem, I want to establish what is actually failing.
-
-Can the device reach the network?
+Can the device connect to the network?
 
 Does it have the expected IP configuration?
 
 Can it resolve the name?
 
-Can it reach the destination by IP?
+Can it reach the destination?
 
 Is the service itself responding?
 
-Is the problem limited to one device or affecting others?
+Is it one device or several?
 
-Those checks start separating the possible causes.
+Those checks start narrowing things down.
 
-If DNS is the problem, the evidence should eventually point that way.
+If the evidence points towards DNS, great. I can investigate DNS.
 
-If it isn't, I can move on.
+If it doesn't, I can move on.
 
-## The same approach applies outside networking
+That sounds obvious, but when you're dealing with a busy support queue and a familiar-looking problem, it's easy to jump ahead.
 
-This is probably the bigger lesson.
+## The same thing happens outside networking
 
-I've seen similar situations with Microsoft 365, identity and endpoints.
+I've seen the same assumptions with Microsoft 365, identity and endpoints.
 
-A user can't sign in.
+A user can't sign in. It must be their password.
 
-It must be their password.
+A device isn't accessing something. It must be Intune.
 
-A device isn't accessing something.
-
-It must be Intune.
-
-An application isn't working.
-
-It must be the application.
+An application isn't working. It must be the application.
 
 Sometimes it is.
 
-But I've found that the best investigations are the ones where I don't decide too early.
+But the symptom doesn't necessarily tell you the cause.
 
-## One example
+I've had an authentication issue where the user simply couldn't sign in. Looking at the Entra sign-in information showed that a specific Conditional Access policy was actually blocking the request.
 
-The Conditional Access issue I wrote about elsewhere is a good example.
+The initial symptom was correct.
 
-From the user's perspective, it was an access problem.
+The assumption about the cause would have been wrong.
 
-The temptation would have been to treat it as a generic authentication issue.
-
-Looking at the sign-in information showed that a specific blocked-countries policy was involved.
-
-The initial symptom was real.
-
-The initial assumption would have been less useful.
+That's why I try to separate what the user is experiencing from what the system is telling me.
 
 ## Evidence keeps you honest
 
-The more I work in support, the more I appreciate having something concrete to work from.
+The more I've worked in support, the more I appreciate having something concrete to work from.
 
 A log entry.
-
 A policy result.
-
 A device state.
-
 A test result.
-
-A reproducible behaviour.
-
-It doesn't have to be complicated.
-
-Even something as simple as:
+Something as simple as:
 
 > It works on this device but not that one.
 
-is useful evidence.
+can completely change the direction of an investigation.
 
-It changes the direction of the investigation.
+If the same account works elsewhere, that's useful.
 
-## The other side of this is knowing when to stop
+If several users have the same problem, that's useful.
 
-You can also go too far.
+If something can be ruled out, that's useful too.
 
-Not every connectivity issue needs a complete network investigation.
+The aim isn't to collect every possible piece of information.
 
-If the evidence quickly shows that the problem is DNS, then great.
+It's to find the information that helps narrow the problem down.
 
-Fix it.
+## Your first idea can still be right
 
-Document it.
+I'm not against having a theory.
 
-Move on.
+If I've seen a particular issue before, it makes sense that I might have an idea about where to start.
+
+If I suspect DNS and the evidence confirms it, great.
+
+The important part is that I checked.
+
+Experience should help you know where to look first.
+
+It shouldn't stop you looking elsewhere when the evidence tells you to.
+
+## Don't investigate forever either
+
+There's another side to this.
+
+Not every connectivity issue needs a complete investigation into every possible layer of the network.
+
+If the evidence clearly shows that DNS is the problem and fixing it resolves the issue, that's probably enough.
+
+Fix it, make sure it works, record anything useful and move on.
 
 The point isn't to investigate everything forever.
 
-It's to investigate enough to be confident in what you're changing.
-
-## Why I like this way of working
-
-I think this is one of the things that has carried over into my interest in service management as well.
-
-You want to understand what is actually happening.
-
-Not what you expect to be happening.
-
-That sounds like a small difference, but it changes how you approach problems.
-
-Instead of:
-
-> I think I know what this is.
-
-It's:
-
-> Here's what I know so far. What does that tell me?
-
-That leaves room for the evidence to change your mind.
-
-And sometimes it will.
+It's to investigate enough to be confident that you've understood what is happening and that the change you're making is appropriate.
 
 ## So yes, check DNS
 
 Of course you should.
 
-Just don't stop there.
+DNS really does cause plenty of problems.
 
-Because sometimes it really is DNS.
+But I've found that the better approach is to start with an idea without becoming attached to it.
+
+Look at the symptom.
+
+Gather the evidence.
+
+Test what you can.
+
+Follow where the investigation takes you.
+
+Sometimes it really is DNS.
 
 And sometimes it really, really isn't.
