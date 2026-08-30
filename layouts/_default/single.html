@@ -45,7 +45,7 @@
       {{ if $bannerRes }}
         <div class="mt-6" style="max-width: 900px;">
           <div class="overflow-hidden rounded-lg" style="aspect-ratio: 16 / 9;">
-            {{ with $bannerRes.Resize "1600x q85" }}
+            {{ with $bannerRes.Resize "1600x jpg q82" }}
               <img
                 src="{{ .RelPermalink }}"
                 width="{{ .Width }}"
