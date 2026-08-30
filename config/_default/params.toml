@@ -53,7 +53,7 @@ smartTOCHideUnfocusedChildren = true
                                                   showTaxonomies = true
                                                     showWordCount = false
                                                       showComments = false
-                                                        sharingLinks = ["linkedin", "twitter", "reddit"]
+                                                        sharingLinks = ["linkedin", "reddit"]
 
                                                         [list]
                                                           showHero = false
