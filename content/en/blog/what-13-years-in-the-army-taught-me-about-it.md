@@ -10,159 +10,237 @@ showTableOfContents: false
 
 Before I moved into IT, I spent more than 13 years in the British Army.
 
-It probably isn't the first background you'd expect to see on an IT support website, but looking back, a lot of the way I work today came from those years.
+It probably isn't the background you'd expect to see on an IT support website, but looking back at how I work now, I can see quite a few things that came with me when I left.
 
 The technology is obviously very different.
 
-The principles aren't always that different.
+The way you approach responsibility, preparation, people and problems isn't always quite so different.
 
-## Taking responsibility
+## Taking responsibility for what is in front of you
 
 One of the biggest things I took from the Army is that if something is your responsibility, you need to know what's going on.
 
-That sounds obvious, but it matters.
+That doesn't necessarily mean you have to be able to do everything yourself. It means you need to understand the situation, know what has been done and have a clear idea of what needs to happen next.
 
-In my current role, that might mean taking ownership of a complicated support issue, being the sole engineer on a customer site, or making sure an escalation has enough information for another team to pick it up properly.
+I've found myself working in much the same way in IT.
 
-It doesn't always mean being the person who fixes the problem.
+If I'm dealing with a complicated support issue, I want to understand what has actually happened rather than simply passing it somewhere else because it looks difficult.
 
-Sometimes another team owns the technical fix.
+If I'm the sole engineer on a customer site, I need to know what work is planned, what issues have appeared and what needs to be dealt with before I leave.
 
-What I can control is the quality of the investigation I've done, the information I've gathered and how well I've communicated what is happening.
+If something needs to be escalated, I want to make sure the next team has enough information to continue the investigation rather than simply receiving the same problem I was given.
 
-That is something I recognise from the way I worked in the Army.
+That doesn't mean I always own the final solution.
 
-If I was responsible for equipment, people or a task, I needed to know its status and what needed to happen next.
+There are plenty of issues where another team is responsible for the technical fix. What I can control is the quality of the investigation I've done, the information I've gathered and how well I've communicated what I've found.
 
-I still work that way.
+That way of thinking feels very familiar to me.
 
-## Preparation matters
+## Preparation makes things easier when something goes wrong
 
 The Army put a lot of emphasis on preparation.
 
-You don't wait until something goes wrong before deciding what you might need.
+You don't want to discover that something important is missing when you actually need it. You want to have thought about what you're doing, what you might need and what could go wrong before you get there.
 
-IT obviously isn't an operational deployment, but the same thinking applies.
+Obviously, IT isn't the same environment.
 
-Good documentation, useful knowledge articles, accurate asset information and clear processes all make things easier when something does go wrong.
+But the principle has stuck with me.
 
-I've become much more interested in this through my work in IT.
+Good preparation in IT might be making sure you have the right information before starting an investigation. It might be checking a device before a customer visit, understanding what work is planned or making sure documentation is available when someone needs it.
 
-A process might work perfectly well most of the time, but if the information around it is out of date, the next person dealing with it is starting at a disadvantage.
+I've become particularly interested in this through the work I've done around documentation.
 
-I've seen the value of having something useful to refer back to.
+A process can be perfectly reasonable, but if the information someone needs to follow it is missing or out of date, they're starting at a disadvantage.
 
-Not a document that exists because someone was told to write one.
+I've seen this when working through existing documentation and finding that parts of it no longer reflected the environment.
 
-Something that actually helps.
+The answer wasn't necessarily to create something complicated.
 
-## Accountability is more than keeping a list
+It was to make sure the information was accurate and actually useful.
 
-A lot of my Army experience involved equipment.
+That distinction matters to me.
+
+I don't like documentation that exists simply because somebody decided there should be a document.
+
+I'd rather have something that someone can actually use.
+
+## Accountability isn't just keeping track of things
+
+A significant part of my Army experience involved equipment and logistics.
 
 You need to know what you have, where it is, what condition it's in and who is responsible for it.
 
-That probably sounds quite different from IT, but there are obvious similarities.
+That might sound a long way removed from IT, but I've found there are some obvious similarities.
 
-Devices need to be accounted for.
+In IT, there are devices, accounts, access, information and services that all need to be managed properly.
 
-Access needs to be controlled.
+The details are different, but the basic idea of knowing what you have and understanding its status still matters.
 
-Information needs to be accurate.
+I've worked with asset lists, device preparation, rebuilds and provisioning as part of my current role, and I think my previous experience has probably made me naturally conscious of the importance of accurate information.
 
-Changes need to be understood.
+If the records say one thing and reality says another, that's worth investigating.
 
-When something doesn't match what you expected, you need to find out why.
+You can't make good decisions about something you don't properly understand.
 
-That way of thinking has stayed with me.
+## Things don't always go according to plan
 
-## Stay calm when the plan changes
+One thing you learn pretty quickly in any environment where you're responsible for getting things done is that the plan is rarely the complete story.
 
-Things rarely go exactly to plan.
+Something changes.
 
-That's true in the Army and it's definitely true in IT.
+Something doesn't work.
 
-A ticket can start as a simple access issue and turn into a Conditional Access investigation.
+Someone needs something you weren't expecting.
 
-A customer visit can have a list of planned jobs and then someone walks up with a completely different problem.
+You have to adapt.
 
-A migration can be planned carefully and still produce issues you didn't expect.
+I've experienced plenty of that in IT.
 
-The important thing is not to panic and start changing random things.
+A ticket can start as a straightforward access issue and turn into an investigation involving sign-in activity, device state and Conditional Access.
 
-Work out what you know.
+A customer visit can have planned work, only for users to raise completely different issues once you're there.
 
-Work out what you don't know.
+A piece of technical work can uncover something that needs another team involved.
 
-Gather the information.
+I've found that the best response isn't to immediately start changing things because the original plan no longer fits.
 
-Then decide what to do next.
+I try to work out what I know, what I don't know and what information I need before deciding what to do next.
 
-That's probably one of the most useful habits I've carried with me.
+That sounds simple, but staying calm enough to actually do it is important.
 
-## Leadership isn't always about having the title
+## Leadership isn't always about the title
 
-I led and supported teams during my Army career, including teams of up to 12 people.
+During my Army career, I had responsibility for people and led teams of up to 10.
 
-That taught me that leadership isn't simply telling people what to do.
+That experience taught me quite a lot about what leadership actually looks like when you're responsible for getting a job done.
 
-It's helping people understand what needs to happen, making sure they have what they need, keeping things moving and taking responsibility when something isn't going to plan.
+It isn't just telling people what to do.
 
-I've found myself using some of the same approach in IT.
+You need to make sure people understand what is expected, give them what they need to do the job, keep things moving and step in when something isn't going to plan.
 
-I don't need to be someone's manager to help them work through a difficult investigation.
+I've found some of that carries across into IT.
 
-Sometimes a colleague just needs another person to talk through the problem with.
+I don't need to be someone's manager to help them work through a difficult problem.
+
+Sometimes a colleague just needs another person to talk through an investigation with.
 
 What have you checked?
 
 What does the evidence show?
 
-What haven't you ruled out yet?
+What haven't you ruled out?
+
+Is there another angle worth looking at?
 
 What does the next team actually need from you?
 
-Helping someone structure the problem is often more useful than simply taking it away from them.
+Sometimes helping someone structure a problem is more useful than taking the problem away from them.
 
-## Documentation matters
+That's something I enjoy doing.
 
-This is probably one of the biggest connections between my Army experience and the way I work in IT.
+## Documentation has always mattered to me
 
-When you're dealing with equipment, logistics or operational tasks, accurate records matter.
+This is probably one of the strongest connections between my Army experience and the way I work in IT.
 
-The same is true in IT.
+When you're responsible for equipment, people or tasks, accurate information matters.
 
-I've worked on documentation and knowledge articles because I've seen what happens when information becomes outdated or doesn't reflect the way something is actually done.
+You need to be able to trust the records you're working from.
 
-Good documentation gives the next person a starting point.
+I've carried that into IT.
 
-It also gives you something to challenge.
+I've worked on knowledge articles and process documentation, and I've seen what happens when information becomes outdated or doesn't reflect the way something is actually done.
 
-If the documented process and the actual process are different, that's worth noticing.
+It's easy to think of documentation as something separate from the actual work.
 
-## The biggest lesson
+I don't really see it that way.
 
-I wouldn't say the Army taught me how to do IT.
+If the next person needs to complete a task, investigate an issue or understand a process, the information available to them is part of what allows them to do that properly.
 
-It didn't.
+I've also found that reviewing documentation can expose things that aren't obvious when you're simply following the process.
 
-It taught me how I tend to approach work.
+If the document says one thing but everyone is actually doing something else, that's worth understanding.
 
-Take responsibility.
+It might be that the process has changed.
+
+It might be that the documentation was never quite right.
+
+Either way, you've found something worth looking at.
+
+## You learn to rely on the people around you
+
+Another thing the Army taught me is that you don't get very far by trying to do everything yourself.
+
+Different people have different responsibilities, skills and experience.
+
+The important thing is knowing what you can deal with, when you need help and how to work effectively with the people around you.
+
+That's very relevant to IT.
+
+There are plenty of problems where I can investigate the issue but eventually need another team to take it further.
+
+That isn't a failure.
+
+The important thing is making sure the handover is useful and that I've done what I reasonably can before it gets there.
+
+I've also found that working across an MSP environment means communicating with a lot of different people. Customers, users, service desk colleagues, resolver teams and project teams all have different perspectives on the same piece of work.
+
+You have to be able to work with all of them.
+
+## The Army didn't teach me how to do IT
+
+I think that's probably the most important distinction.
+
+The Army didn't prepare me to troubleshoot Microsoft 365.
+
+It didn't teach me how Entra ID works, how to investigate an Intune compliance issue or how to understand a Conditional Access result.
+
+Those are things I've had to learn since moving into IT.
+
+What the Army did give me was a way of approaching work.
+
+Take responsibility for what is in front of you.
 
 Prepare properly.
 
 Keep accurate information.
 
-Communicate.
+Look after the people around you.
 
-Work with the people around you.
+Stay calm when something changes.
 
-Stay calm when things change.
+Ask questions when you don't know.
 
-And if something keeps going wrong, don't just keep fixing the same thing without asking why.
+And when something isn't working, don't just keep doing the same thing without trying to understand why.
 
-Those habits have come with me into IT.
+## Looking back, those habits have been useful
+
+When I first moved into IT, I was obviously focused on learning the technology.
+
+I had a lot to learn, and I still do.
+
+But as I've gained more experience, I've realised that knowing the technology is only part of being good at the job.
+
+How you investigate something matters.
+
+How you communicate matters.
+
+How you document something matters.
+
+How you work with other people matters.
+
+Whether you take responsibility for an issue matters.
+
+Those aren't necessarily IT skills, but they're skills that have helped me while I've been learning IT.
+
+My career has changed quite a lot since I left the Army.
+
+The environment is different, the problems are different and the technology is completely different.
+
+But when I look at how I work today, I can still recognise quite a lot of the person who was there before I moved into IT.
+
+The Army didn't teach me IT.
+
+It taught me a lot about how I approach the work.
 
 The technology is different.
 
