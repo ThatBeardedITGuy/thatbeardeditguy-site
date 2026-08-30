@@ -4,4 +4,4 @@ description: "Field notes on IT, process, and service governance, plus the occas
 showTableOfContents: false
 ---
 
-Real issues, real fixes, and the lessons that came with them - the practical side of IT, written down as it happens.
+Things I've learned through working in IT, from troubleshooting real problems to understanding the processes, services and people around them. Practical observations from the work, the things I'm studying, and figuring out what works in the real world.
