@@ -38,6 +38,7 @@ smartTOCHideUnfocusedChildren = true
                           cardView = true
 
                           [article]
+                          showCategories = false
                             showDate = true
                               showDateUpdated = true
                                 showAuthor = false
