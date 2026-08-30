@@ -2,6 +2,8 @@
 title: "About"
 showTableOfContents: false
 showHeadingAnchors: false
+showDate: false
+showReadingTime: false
 ---
 
 ## I'm That Bearded IT Guy.
