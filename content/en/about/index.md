@@ -6,7 +6,7 @@ showDate: false
 showReadingTime: false
 ---
 
-## I'm That Bearded IT Guy.
+## That Bearded IT Guy.
 
 I'm Liam.
 
