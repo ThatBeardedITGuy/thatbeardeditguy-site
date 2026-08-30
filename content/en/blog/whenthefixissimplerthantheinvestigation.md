@@ -1,6 +1,7 @@
 ---
 title: "When the Fix Is Simpler Than the Investigation"
 date: 2026-05-12
+bannerImage: "images/blog/Banner7.png"
 draft: false
 summary: "A real Excel co-authoring issue where the investigation was more complicated than the final fix."
 tags: ["Microsoft 365", "Excel", "Troubleshooting"]

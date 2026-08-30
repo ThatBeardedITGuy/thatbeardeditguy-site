@@ -1,6 +1,7 @@
 ---
 title: "What Working in an MSP Has Taught Me About IT"
 date: 2026-06-09
+bannerImage: "images/blog/Banner5.png"
 draft: false
 summary: "What working across multiple customer environments has taught me about support, communication and service."
 tags: ["IT Support", "MSP", "Service Management"]

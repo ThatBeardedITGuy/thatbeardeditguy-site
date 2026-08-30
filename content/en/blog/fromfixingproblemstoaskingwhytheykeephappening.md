@@ -1,6 +1,7 @@
 ---
 title: "From Fixing Problems to Asking Why They Keep Happening"
 date: 2026-08-28
+bannerImage: "images/blog/Banner7.png"
 draft: false
 summary: "How my thinking has developed from fixing individual issues to looking at the service around them."
 tags: ["IT Support", "Service Management", "Continual Improvement"]

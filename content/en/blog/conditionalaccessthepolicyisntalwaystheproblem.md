@@ -1,6 +1,7 @@
 ---
 title: "Conditional Access: The Policy Isn't Always the Problem"
 date: 2026-04-28
+bannerImage: "images/blog/Banner2.png"
 draft: false
 summary: "A practical look at following the evidence through an authentication investigation."
 tags: ["Microsoft 365", "Entra ID", "Conditional Access"]

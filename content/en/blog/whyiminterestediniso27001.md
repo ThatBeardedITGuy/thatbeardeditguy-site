@@ -1,6 +1,7 @@
 ---
 title: "Why I'm Interested in ISO 27001"
 date: 2026-08-18
+bannerImage: "images/blog/Banner2.png"
 draft: false
 summary: "Why information security and ISO 27001 have become areas I'm genuinely interested in learning about."
 tags: ["ISO 27001", "Information Security", "Learning"]

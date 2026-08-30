@@ -1,6 +1,7 @@
 ---
 title: "It's Always DNS... Until It Isn't"
 date: 2026-05-26
+bannerImage: "images/blog/Banner4.png"
 draft: false
 summary: "Why familiar troubleshooting assumptions can sometimes send you in the wrong direction."
 tags: ["Troubleshooting", "Networking", "Evidence"]

@@ -1,6 +1,7 @@
 ---
 title: "The Ticket Told Me One Thing. The Evidence Told Me Another."
 date: 2026-07-07
+bannerImage: "images/blog/Banner7.png"
 draft: false
 summary: "Why the first description of a problem is the starting point, not always the diagnosis."
 tags: ["Troubleshooting", "IT Support", "Evidence"]

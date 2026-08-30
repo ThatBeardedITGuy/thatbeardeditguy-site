@@ -1,6 +1,7 @@
 ---
 title: "What a Good Escalation Actually Looks Like"
 date: 2026-04-14
+bannerImage: "images/blog/Banner1.png"
 draft: false
 summary: "What I try to include when handing a technical issue to another team."
 tags: ["IT Support", "Escalation", "Service Management"]

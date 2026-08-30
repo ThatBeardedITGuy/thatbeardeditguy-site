@@ -1,6 +1,7 @@
 ---
 title: "What Changes When You're the Engineer on Site"
 date: 2026-06-23
+bannerImage: "images/blog/Banner4.png"
 draft: false
 summary: "What I've learned from being the engineer responsible for customer support on-site."
 tags: ["IT Support", "Field Support", "Service Delivery"]

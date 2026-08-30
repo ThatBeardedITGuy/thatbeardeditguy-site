@@ -1,6 +1,7 @@
 ---
 title: "What I Actually Took Away From ITIL v5"
 date: 2026-08-23
+bannerImage: "images/blog/Banner1.png"
 draft: false
 summary: "The parts of ITIL v5 that have actually changed how I think about my day-to-day work."
 tags: ["ITIL", "Service Management", "Learning"]

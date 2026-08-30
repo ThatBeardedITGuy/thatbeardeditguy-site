@@ -1,6 +1,7 @@
 ---
 title: "Documentation Isn't Just Something You Write After the Work"
 date: 2026-07-21
+bannerImage: "images/blog/Banner3.png"
 draft: false
 summary: "Why useful, current documentation is part of delivering a good service."
 tags: ["Documentation", "Service Management", "Continual Improvement"]
