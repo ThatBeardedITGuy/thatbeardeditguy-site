@@ -8,8 +8,6 @@ categories: ["Blog"]
 showTableOfContents: false
 ---
 
-# Why I'm Interested in ISO 27001
-
 I've spent the last few years working in IT support, and over that time I've become increasingly interested in the parts of IT that sit behind the technology itself.
 
 When I first moved into IT, my focus was naturally on the technical side. Getting users back up and running, troubleshooting devices, working through Microsoft 365 issues and understanding why something wasn't behaving as expected. That's still a big part of what I do, and I enjoy it.
