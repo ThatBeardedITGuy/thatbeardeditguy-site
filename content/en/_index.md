@@ -1,10 +1,9 @@
 ---
 title: "That Bearded IT Guy"
-description: "The practical side of IT - built, broken, and fixed."
 ---
 
-The practical side of IT. Built, broken, fixed, and learned from.
+The practical side of IT, built, broken, and fixed.
 
-I'm That Bearded IT Guy - an IT professional working across Microsoft 365, Intune, and Entra ID, documenting the things I build, the problems I solve, and the lessons I pick up along the way.
+I'm That Bearded IT Guy. I work across Microsoft 365, Intune, Entra ID and day-to-day IT support, with a particular interest in understanding the problems behind the problems.
 
-Troubleshooting real issues, incident and problem management, IT service management concepts without the jargon, the way processes drift out of date without anyone noticing, and what I've picked up running my own homelab.
+This site is where I document the things I work on, the projects I build, the things I'm learning and the lessons that come from working in IT.
