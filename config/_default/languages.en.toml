@@ -14,5 +14,6 @@ image = "images/tbitg-logo.png"
 headline = "The practical side of IT, built, broken, and fixed."
 bio = "IT professional with a background across Microsoft 365, Intune and Entra ID, building toward a career in IT service governance and problem management."
 links = [
-{ linkedin = "https://www.linkedin.com/in/liam-curran-uk" }
+{ linkedin = "https://www.linkedin.com/in/liam-curran-uk" },
+{ reddit = "https://www.reddit.com/user/ComfortableCurve6453/" }
 ]
