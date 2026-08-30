@@ -8,166 +8,193 @@ categories: ["Blog"]
 showTableOfContents: false
 ---
 
-Documentation can be one of those things people put off.
+Documentation is probably one of those parts of IT that everyone agrees is important, but it isn't always the first thing that gets done.
 
-The technical problem is solved.
+There's usually something more immediate.
 
-The user is happy.
+A user has a problem. Something needs investigating. A device needs rebuilding. Someone needs access. A customer needs support.
 
-The ticket is closed.
+You fix the thing, the user is happy and the ticket moves on.
 
-And then someone says:
+Then you remember that the documentation probably needs updating.
 
-> We should update the documentation.
+Earlier in my IT career, I probably would have seen that as a separate task that could be dealt with later.
 
-It's easy to see that as an extra task.
+The more I've worked with processes and documentation, the more I've realised that the documentation is actually part of the work.
 
-I've started seeing it differently.
+## I've seen what happens when the documentation doesn't match reality
 
-## Good documentation saves time
+One of the better examples of this for me has been working on Joiner, Mover and Leaver documentation.
 
-If someone needs to perform the same task again, having a clear guide means they don't have to start from scratch.
+The existing process contained legacy steps relating to systems and administration that were no longer part of the current environment.
 
-That sounds obvious.
+On paper, the process was there.
 
-But I've also seen the other side.
+The problem was that parts of it no longer reflected what actually happened.
 
-Documentation that is out of date can be worse than having no documentation because it gives you confidence in something that isn't actually correct.
+That creates a strange situation.
 
-That's a problem.
+Someone who doesn't know the environment very well could follow the document exactly as written and still end up doing something that isn't relevant anymore.
 
-## The JML work made this particularly obvious
+The document hasn't necessarily failed because it was badly written.
 
-I've worked on Joiner, Mover and Leaver documentation where parts of the process no longer reflected the environment.
+It has failed because the environment changed and the information didn't keep up.
 
-There were legacy steps relating to systems that were no longer part of the current process.
+That was something I found quite useful to see first-hand.
 
-The job wasn't simply to rewrite a few sentences.
+It made the importance of keeping documentation current much more obvious to me.
 
-It was to understand what the process actually needed to achieve and remove information that no longer belonged there.
+## Writing something down can actually expose problems
 
-That made the documentation much more useful.
+There's another thing I've noticed when working with documentation.
 
-## Documentation should reflect reality
+Sometimes you don't realise a process is unclear until you try to explain it.
 
-This is probably my biggest rule.
+You start writing down the steps and suddenly find yourself asking questions.
 
-If the document says one thing and the team does another, something needs looking at.
+What happens before this?
 
-It might be the document.
+Who is responsible for this part?
 
-It might be the process.
+Does another team need to do something first?
 
-It might be both.
+Where does this information come from?
 
-But leaving the difference sitting there creates confusion.
+What happens if that step doesn't work?
 
-Someone new follows the document.
+Those questions aren't necessarily problems with the document.
 
-Someone experienced follows the way they've always done it.
+Sometimes they're pointing at a problem with the process itself.
 
-Now you have two versions of the process.
+I've found that quite interesting because it means documentation isn't just recording how work is done.
 
-That isn't helpful.
+It can also help you understand whether the work is actually being done in a clear and consistent way.
 
-## It's also about consistency
+## Working in an MSP makes that even more important
 
-In an MSP environment, consistency matters.
+The other reason I've become more conscious of documentation is the environment I work in.
 
-Different engineers might work on the same customer.
+I'm supporting different customers, different technologies and different ways of working.
 
-Different teams might get involved.
+I'm not always going to be the person dealing with the same issue next time.
 
-People take holidays.
+Someone else might pick it up.
 
-People move roles.
+A different team might need to understand what has already happened.
 
-People forget things.
+I might not even remember the details of something I worked on several months ago.
 
-A useful knowledge article gives everyone a common starting point.
+That's where useful documentation becomes valuable.
 
-It doesn't replace experience.
+It gives the next person somewhere to start.
 
-It makes experience easier to share.
+It doesn't replace experience, and it doesn't mean every possible scenario needs to be written down.
 
-## Documentation can also expose process problems
+It just means that useful knowledge shouldn't exist only in someone's head.
 
-This is something I didn't really appreciate when I first started in IT.
+## There's a difference between documentation existing and documentation being useful
 
-Sometimes trying to document a process shows you that the process itself isn't clear.
+I've seen documents that technically contain the information you need, but finding the useful part isn't particularly easy.
 
-You start writing:
+I've also seen processes where the information exists but hasn't been updated as the environment has changed.
 
-> Step one...
+Having a document isn't the same as having good documentation.
 
-Then realise:
+For me, the question has gradually become much simpler:
 
-> Actually, someone needs to do something before step one.
+If I needed to do this tomorrow and had never done it before, would this actually help me?
 
-Or:
+If the answer is yes, it's probably doing its job.
 
-> This only works if another team has already done something.
+If the answer is no, then it probably needs some attention.
 
-Or:
+That doesn't mean every document needs to be rewritten from scratch.
 
-> Nobody actually knows who owns this part.
+Sometimes a small change is enough.
 
-That's useful information.
+Remove an old step.
 
-The documentation exercise has exposed something that was already there.
+Clarify something.
 
-## It doesn't need to be a novel
+Add the information someone keeps asking for.
 
-I'm not a fan of writing pages of information just because documentation is considered important.
+Make the order of the process clearer.
 
-The useful question is:
+Point someone towards the system or team they actually need.
 
-> What does the next person need to know?
+Small changes can make a document considerably more useful.
 
-That might be a short troubleshooting guide.
+## I've also started to see the connection with the work itself
 
-A checklist.
+This is probably the biggest change in how I think about documentation.
 
-A few screenshots.
+I don't really see it as something that happens after the "real" work anymore.
 
-A decision point.
+If I'm investigating an issue and discover something that another engineer would benefit from knowing, that's part of the work.
 
-A link to another system.
+If I'm reviewing a process and find that some of the information is no longer accurate, fixing that is part of the work.
 
-A clear owner.
+If I've had to work something out that isn't documented anywhere, there's probably some value in leaving that information behind.
 
-The format matters less than whether someone can actually use it.
+The person dealing with the problem next time shouldn't necessarily have to repeat the same investigation just because I happened to be the person who found the answer first.
 
-## ITIL has made me think about this differently
+## My ITIL studies have reinforced something I've already experienced
 
-One of the things I've taken from my ITIL studies is the importance of knowledge being useful and available when it is needed.
+Studying ITIL v5 has given me a better appreciation for the importance of useful knowledge being available when it is needed.
 
-That makes sense to me because I've experienced the alternative.
+That made sense to me because I'd already seen what happens when information isn't useful.
 
-When information is hard to find or no longer matches reality, support becomes harder.
+When documentation is clear and current, it makes the work easier.
 
-When it is clear and current, people can get on with the work.
+When it isn't, people spend more time trying to work out what should already be known.
 
-I don't need to call it an ITIL activity every time I update a document.
+I don't need to think about that in ITIL terminology every time I update a document.
 
-It's just good support.
+It's just something I've experienced in practice.
 
-## Documentation is part of the service
+The course has given me a better way of understanding why it matters.
 
-That's probably where I've landed with it.
+## I'm not trying to document everything
 
-It isn't paperwork that happens after the real work.
+There's a danger of going too far with this.
 
-It is part of how the service is delivered.
+I don't think every task needs a ten-page procedure.
 
-Good documentation can help someone resolve an issue.
+Sometimes the useful information is a few lines.
 
-It can make an escalation better.
+Sometimes it's a checklist.
 
-It can make onboarding easier.
+Sometimes it's a knowledge article.
 
-It can make a process more consistent.
+Sometimes it's simply making sure the right person knows where something is recorded.
 
-And it can show you where the process itself needs work.
+The important thing is that the information is useful to the person who needs it.
 
-That's why I now pay much more attention to it than I used to.
+I'd much rather have a short, accurate document that someone actually uses than a huge document that nobody wants to read.
+
+## Documentation has become part of how I think about the job
+
+When I first moved into IT, I was mainly thinking about solving the problem in front of me.
+
+That's still important.
+
+But now, if I've had to work something out, or I've noticed that a process doesn't quite match reality, I'm more likely to think about what should happen with that information afterwards.
+
+Should it be documented?
+Does the existing documentation need changing?
+Would another engineer benefit from knowing this?
+Is there a process behind the problem that needs looking at?
+
+Sometimes the answer will be no.
+
+Sometimes it will just be a small update.
+
+But I think that's the difference for me.
+
+Documentation isn't something I want to produce just because I'm supposed to.
+
+I want it to be there because it makes the work easier, more consistent and easier for the next person to pick up.
+
+The technical fix might solve today's problem.
+
+Good documentation can make tomorrow's problem a little easier.
