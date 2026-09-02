@@ -42,7 +42,6 @@ They needed removing.
 One option when you find old documentation is to leave the step there and add a note.
 
 Something like:
-
 > This step is no longer required.
 
 That technically tells the reader what to do. But it still leaves the old instruction sitting in the middle of the process.
