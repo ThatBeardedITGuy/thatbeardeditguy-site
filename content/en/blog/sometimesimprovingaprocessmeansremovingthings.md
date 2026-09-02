@@ -7,7 +7,7 @@ summary: "Why sometimes the best way to improve an IT process is to remove the t
 tags: ["JML", "Service Management", "Continual Improvement"]
 categories: ["Blog"]
 showTableOfContents: false
---------------------------
+---
 
 There's a natural tendency when improving an IT process to add things.
 
