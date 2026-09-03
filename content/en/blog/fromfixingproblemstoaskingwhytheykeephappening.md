@@ -47,9 +47,7 @@ The important part is noticing the pattern. If something keeps coming back, the 
 
 I've worked on documentation where the written process no longer matched what was actually happening.
 
-At first glance, that can seem like a fairly minor problem.
-
-But if someone is following an outdated process, they can waste time, follow steps that no longer apply or create another problem further down the line.
+At first glance, that can seem like a fairly minor problem. But if someone is following an outdated process, they can waste time, follow steps that no longer apply or create another problem further down the line.
 
 I've seen this particularly through work on Joiner, Mover and Leaver documentation, where I helped remove legacy steps that no longer reflected the way the environment was actually being managed.
 
@@ -57,15 +55,9 @@ The immediate task was updating the documentation.
 
 But there was something bigger behind it.
 
-The information people rely on is part of the process.
+The information people rely on is part of the process. If it's wrong, the process isn't working as well as it should.
 
-If it's wrong, the process isn't working as well as it should.
-
-That made me think differently about documentation.
-
-It's not just something you write down after the work is finished.
-
-It can directly affect how the work gets done.
+That made me think differently about documentation. It's not just something you write down after the work is finished. It can directly affect how the work gets done.
 
 This is one of the reasons I've enjoyed studying ITIL v5 alongside working in support.
 
@@ -99,9 +91,7 @@ Working in an MSP environment has probably reinforced that for me because I've s
 
 The same type of technical problem can have a completely different context depending on the customer, the users affected and the service involved.
 
-You have to understand the environment you're actually dealing with.
-
-That has also changed the way I think about the work I do myself.
+You have to understand the environment you're actually dealing with. That has also changed the way I think about the work I do myself.
 
 If I'm investigating an issue, I'm not only thinking about what will make the error disappear. I'm also thinking about whether the information I'm leaving behind will help the next person, whether the issue is likely to return and whether there is anything about the process that is making the problem harder than it needs to be.
 
@@ -117,11 +107,7 @@ Sometimes the answer really is:
 
 > Fix the thing and move on.
 
-Not everything needs a process review.
-
-Not every repeat issue needs a project.
-
-Not every documentation gap needs a new system.
+Not everything needs a process review. Not every repeat issue needs a project. Not every documentation gap needs a new system.
 
 Sometimes you just need to update a page, improve a knowledge article or tell someone what happened.
 
@@ -131,19 +117,13 @@ It's to recognise when there is an opportunity to make something better and deci
 
 I've found that to be a much more practical way of looking at continual improvement.
 
-You don't need to improve everything.
-
-You need to notice what could be improved and make a sensible decision about it.
+You don't need to improve everything. You need to notice what could be improved and make a sensible decision about it.
 
 ## I'm still a technical support engineer
 
 This hasn't changed.
 
-I still troubleshoot devices.
-
-I still investigate Microsoft 365 issues.
-
-I still work with Entra ID and Intune.
+I still troubleshoot devices. I still investigate Microsoft 365 issues. I still work with Entra ID and Intune.
 
 I still deal with printers, access problems, applications and all the other things that turn up during a normal week.
 
@@ -161,9 +141,7 @@ Could the service work better?
 
 Those are questions I probably wouldn't have thought about in quite the same way when I first moved into IT.
 
-Now I find myself asking them more often.
-
-And I think that's a good thing.
+Now I find myself asking them more often. And I think that's a good thing.
 
 I'm still fixing the problem in front of me.
 
