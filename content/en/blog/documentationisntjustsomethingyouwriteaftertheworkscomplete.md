@@ -1,5 +1,5 @@
 ---
-title: "Documentation Isn't Just Something You Write After the Work"
+title: "Documentation Isn't Just Something You Write After the Work's Complete"
 date: 2026-07-21
 bannerImage: "images/blog/Banner3.png"
 draft: false
